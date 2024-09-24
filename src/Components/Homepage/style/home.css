@@ -1,0 +1,457 @@
+/* General styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.home {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-color: #e6ecf0;
+}
+
+.sidebar,
+.main-content,
+.extra-content {
+  padding: 20px;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #ffffff;
+  border-right: 1px solid #ccc;
+  position: fixed; /* Fix the sidebar to the left */
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add gap between icon and text */
+}
+
+.sidebar ul li i {
+  margin-right: 10px;
+}
+
+.sidebar ul li:hover {
+  background-color: #f5f5f5;
+}
+
+.main-content {
+  width: calc(60% - 40px); /* Adjust width and margin */
+  background-color: #d6d4d4e7;
+  margin-left: 20%; /* Make space for the sidebar */
+  margin-right: 23%; /* Make space for the extra content */
+  position: relative;
+  left: 0; /* Remove offset for the fixed sidebar */
+}
+
+.main-content h2 {
+  margin-top: 0;
+}
+
+.extra-content {
+  width: 20%;
+  background-color: #ffffff;
+  border-left: 1px solid #ccc;
+  position: fixed; /* Fix the extra content to the right */
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.extra-content h2 {
+  margin-top: 0;
+}
+
+.extra-content .trends,
+.extra-content .who-to-follow {
+  margin: 20px 0;
+}
+
+.extra-content .trends ul,
+.extra-content .who-to-follow ul {
+  list-style: none;
+  padding: 0;
+}
+
+.extra-content .trends ul li,
+.extra-content .who-to-follow ul li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.extra-content .who-to-follow ul li i {
+  margin-right: 10px;
+}
+
+.message-people ul,
+.notifications ul {
+  list-style: none;
+  padding: 0;
+}
+
+.message-people ul li,
+.notifications ul li {
+  margin: 10px 0;
+}
+
+.message-box {
+  margin-top: 20px;
+}
+
+.message-box textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.message-box button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #1da1f2;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* New styles for the profile icon and menu */
+.main-content .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-icon {
+  position: absolute;
+  right: 10px; /* Move the icon 10px from the right edge */
+  top: 10px; /* Adjust the top margin as needed */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #555;
+  color: #fff;
+}
+
+.profile-icon svg {
+  font-size: 24px;
+}
+
+/* Profile Menu Styles */
+/* Profile Menu Styles */
+.profile-menu {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 300px;
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #e0e0e0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.profile-menu .profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px 10px;
+  border-bottom: 1px solid #444;
+}
+
+.profile-menu .profile-header img, 
+.profile-menu .profile-header .profile-initial {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ff4081;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #fff;
+}
+
+.profile-menu .profile-header .profile-email {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+.profile-menu .user-name {
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+.profile-menu .manage-account-btn {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #4e7ccc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: margin-left 0.3s ease;
+}
+
+.profile-menu .manage-account-btn:hover {
+  background-color: #3a61a1;
+  margin-left: 5px;
+}
+
+.profile-menu .profile-options {
+  display: flex;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-menu .profile-options .option {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  cursor: pointer;
+  color: #e0e0e0;
+  transition: background-color 0.2s;
+}
+
+.profile-menu .profile-options .option:hover {
+  background-color: #444;
+}
+
+.profile-menu .profile-options .option:first-child {
+  border-bottom: 1px solid #444;
+}
+
+.profile-menu .privacy-links {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #999;
+}
+
+.profile-menu .privacy-links a {
+  text-decoration: none;
+  color: #999;
+}
+
+.profile-menu .privacy-links a:hover {
+  text-decoration: underline;
+}
+/* Additional styling for account details */
+.account-details {
+  position: absolute;
+  top: 50px; /* Adjust the positioning as needed */
+  right: 10px;
+  background-color: #999;
+  border: 1px solid #e6ecf0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  min-width: 250px;
+  padding: 15px;
+}
+
+.account-details h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.account-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.account-details li {
+  margin-bottom: 10px;
+}
+
+.account-details li svg {
+  margin-right: 10px;
+}
+
+/* Centering the buttons */
+.account-details .form-actions {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 10px; /* Space between the buttons */
+  margin-top: 20px; /* Add some margin at the top */
+}
+
+.account-details button {
+  padding: 10px 20px;
+  background-color: #1da1f2;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.account-details button:hover {
+  background-color: #1a91da;
+}
+
+/* Specific styles for Cancel button */
+.account-details .cancel-btn {
+  background-color: #e74c3c;
+}
+
+.account-details .cancel-btn:hover {
+  background-color: #c0392b;
+}
+/* File upload styles */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 2px dashed #3498db;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px;
+}
+
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.upload-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.upload-csv-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-container span {
+  margin-top: 10px;
+  color: #666;
+}
+
+.uploaded-file {
+  margin-top: 10px;
+}
+
+/*csv table*/
+.csv-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.csv-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.csv-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.csv-table tr:hover {
+  background-color: #ddd;
+}
+
+.csv-table td input {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.uploaded-file-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.uploaded-file-header h3 {
+  cursor: pointer;
+  margin: 0;
+}
+
+.edit-save-icon, .remove-file-icon {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.edit-save-icon:hover, .remove-file-icon:hover {
+  color: darkgray;
+}
+
+.remove-file-icon {
+  color: red;
+}
+
+.remove-sample-file-icon{
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+.scroll{
+  height: 500px;
+  overflow: scroll;
+}

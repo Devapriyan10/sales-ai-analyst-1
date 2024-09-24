@@ -11,12 +11,13 @@ import InventoryAnalysis from './InventoryAnalysis';
 import ProductAnalysis from './ProductAnalysis';
 import AboutUs from './AboutUs';
 import './style/style.css'
+import './style/home.css'
 const Mainhome = () => {
     const [activeComponent, setActiveComponent] = useState('Home');
     const [showProfile, setShowProfile] = useState(false);
     const handleProfileClick = () => {
         setShowProfile(!showProfile);  // Toggle profile component visibility
-      };
+    };
     const renderContent = () => {
         switch (activeComponent) {
             case 'Home':
@@ -41,8 +42,8 @@ const Mainhome = () => {
     };
 
     return (
-        <div className="app-container" >
-            <nav className='navigationbar' >
+        <div className="home" >
+            <nav className='sidebar' >
                 <h2>Sales-AI-Analyst</h2>
                 <ul>
                     <p onClick={() => setActiveComponent('Home')}>
@@ -69,20 +70,25 @@ const Mainhome = () => {
                 </ul>
             </nav>
 
-            <div className="rendercomp" >
+            <div className="main-content" >
+                <div className="header">
+                    <h1>{activeComponent}</h1>
+                </div>
                 {renderContent()}
             </div>
 
-            <div className='profileicon' 
-            onClick={handleProfileClick}
-            >
-                <FontAwesomeIcon icon={faUser} style={{ cursor: 'pointer', width: '30px', height: '30px' , marginLeft:'5px' , marginTop:'5px'}} />
+            <div className="extra-content">
+                <div className='profileicon'
+                    onMouseOver={handleProfileClick}
+                >
+                    <FontAwesomeIcon icon={faUser} style={{ cursor: 'pointer', width: '30px', height: '30px', marginLeft: '5px', marginTop: '5px' }} />
+                </div>
+                {showProfile && (
+                    <div style={{ position: 'relative', zIndex: 1000 }}>
+                        <Profile closeProfile={() => setShowProfile(false)} /> {/* Pass close function */}
+                    </div>
+                )}
             </div>
-            {showProfile && (
-        <div style={{ position: 'relative', zIndex: 1000 }}>
-          <Profile closeProfile={() => setShowProfile(false)} /> {/* Pass close function */}
-        </div>
-      )}
         </div>
     );
 };
