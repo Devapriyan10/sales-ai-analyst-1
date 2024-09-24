@@ -51,3 +51,12 @@
   .sidebar ul p:hover {
     background-color: #f5f5f5;
   }
+
+.picker-btn{
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.sample-csv-btn{
+    margin-bottom: 5px;
+}
