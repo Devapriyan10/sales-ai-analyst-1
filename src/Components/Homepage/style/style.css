@@ -1,0 +1,35 @@
+.app-container{
+    /* background-color: grey; */
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display:flex
+}
+.navigationbar {
+    width: 20%;
+}
+.rendercomp{
+    width: 80%;
+    background-color: rgb(207, 202, 202);
+    display: flex;
+    height: 100vh;
+    overflow:scroll;
+}
+.profileicon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    height:40px;
+    width: 40px;
+    border-radius: 50px; 
+}
+
+.scroll {
+    margin-top: 200px;
+    height: 400px;
+    overflow: scroll;
+}
+/* .scroll::-webkit-scrollbar{
+    display: none;
+} */

@@ -1,0 +1,20 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin: 20px 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,203 @@
+.auth-page {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-page h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.auth-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-page form div {
+  margin-bottom: 1rem;
+}
+
+.auth-page form label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.auth-page form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth-page form .password-input-container {
+  display: flex;
+  align-items: center;
+  position: relative; /* Ensure positioning of the toggle button is relative to this container */
+}
+
+.auth-page form .password-input-container input {
+  flex: 1;
+  padding-right: 2rem; /* Add space for the visibility toggle button */
+}
+
+.auth-page form .toggle-password-btn {
+  position: absolute;
+  right: 0.5rem; /* Adjust as needed */
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #007bff; /* Match or adjust the color as needed */
+  transition: color 0.3s;
+}
+
+.auth-page form .toggle-password-btn:hover {
+  color: #0056b3;
+}
+
+.auth-page button[type="submit"] {
+  padding: 0.75rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-page button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+.auth-page .social-login {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+}
+
+.auth-page .social-login button {
+  padding: 0.5rem;
+  background: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-page .social-login button:hover {
+  background: #f1f1f1;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+/* Forgot Password - Enhanced Styling */
+
+.forgot-password-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.forgot-password-container h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.forgot-password-container form div {
+  margin-bottom: 20px;
+}
+
+.forgot-password-container input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.forgot-password-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.forgot-password-container button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: #2ecc71;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.back-to-login-button {
+  margin-top: 20px; /* Extra space above the Back to Login button */
+  text-align: center;
+}
+
+.back-to-login-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  color: #333;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-login-button a:hover {
+  background-color: #e0e0e0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+  .forgot-password-container {
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .forgot-password-container h2 {
+    font-size: 20px;
+  }
+
+  .forgot-password-container input[type="email"],
+  .forgot-password-container button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .back-to-login-button a {
+    font-size: 14px;
+  }
+}
+
+
