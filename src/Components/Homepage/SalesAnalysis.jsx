@@ -295,7 +295,7 @@ const handleFileUpload = (file) => {
       </table>
     );
   };
-  console.log('analysis',analysisResults);
+ console.log('analysis',analysisResults);
   return (
     <div className="upload-container">
       {/* File upload dropzone */}
