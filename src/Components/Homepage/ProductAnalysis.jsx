@@ -335,12 +335,17 @@ const ProductAnalysis = () => {
       )}
   
       {/* Display sample CSV file */}
-      <button onClick={loadSampleCSV} className="sample-csv-btn">
-        Load Sample CSV
+      <button className="sample-csv-btn" onClick={loadSampleCSV}>
+        <FontAwesomeIcon icon={faFileAlt} /> View Sample CSV
       </button>
       {sampleFileData.length > 0 && (
         <div className="sample-csv-container">
           <h4>Sample CSV File</h4>
+          <FontAwesomeIcon
+              icon={faTimes}
+              className="remove-sample-file-icon"
+              onClick={() => setSampleFileData([])}
+            />
           <div className="scroll">
             {renderCSVTable(sampleFileData)}
           </div>
