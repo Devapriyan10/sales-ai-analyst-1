@@ -114,7 +114,7 @@ const CategoricalAnalysis = () => {
 
   // Load sample CSV
   const loadSampleCSV = () => {
-    let csvFilePath = './assets/sales_analysis.csv';
+    let csvFilePath = './assets/categorical_analysis.csv';
 
     if (csvFilePath) {
       fetch(csvFilePath)

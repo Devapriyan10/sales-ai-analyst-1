@@ -1,0 +1,1001 @@
+Transaction ID,Date and Time,Value,Product Code,Product Category,Payment Method,Customer Segment,Storage Location,Stock Level,Restock Frequency
+T00001,2024-01-15 07:23:46.491451,170.0,P739,Clothing,Debit Card,New,Warehouse C,85,Monthly
+T00002,2023-12-10 23:46:35.491451,583.83,P486,Toys,Online Payment,New,Storefront,67,Monthly
+T00003,2024-02-13 14:03:06.491451,352.2,P326,Furniture,Online Payment,New,Warehouse C,491,Monthly
+T00004,2023-10-22 11:44:40.491451,116.69,P410,Grocery,Debit Card,Loyal,Warehouse C,494,Weekly
+T00005,2024-01-02 02:07:19.491451,300.85,P719,Toys,Credit Card,Regular,Warehouse B,122,Daily
+T00006,2023-11-22 23:41:30.491451,197.41,P991,Clothing,Debit Card,New,Warehouse A,191,Monthly
+T00007,2023-10-28 07:45:00.491451,596.48,P676,Furniture,Cash,Loyal,Storefront,101,Weekly
+T00008,2023-11-24 02:29:08.491451,852.44,P737,Furniture,Online Payment,Loyal,Warehouse A,73,Weekly
+T00009,2024-03-08 20:46:44.491451,61.28,P362,Grocery,Debit Card,Loyal,Warehouse C,410,Daily
+T00010,2023-10-31 04:42:50.491451,301.63,P742,Furniture,Online Payment,New,Warehouse A,86,Daily
+T00011,2023-09-04 23:57:18.491451,64.58,P888,Toys,Debit Card,New,Warehouse C,229,Weekly
+T00012,2024-02-03 04:46:26.491451,83.96,P127,Toys,Online Payment,Regular,Warehouse A,10,Daily
+T00013,2023-10-20 01:04:41.491451,680.35,P319,Grocery,Online Payment,Loyal,Warehouse B,66,Bi-weekly
+T00014,2023-12-20 03:18:54.491451,988.52,P837,Furniture,Debit Card,Loyal,Warehouse B,155,Weekly
+T00015,2024-04-21 11:58:48.491451,489.55,P122,Furniture,Cash,Regular,Warehouse C,95,Daily
+T00016,2024-03-17 11:06:09.491451,600.1,P266,Grocery,Online Payment,New,Warehouse B,273,Daily
+T00017,2024-07-09 06:08:06.491451,537.18,P704,Electronics,Online Payment,Regular,Warehouse C,12,Weekly
+T00018,2023-10-06 09:01:21.491451,45.98,P590,Electronics,Debit Card,New,Warehouse A,182,Monthly
+T00019,2024-07-26 10:43:44.491451,552.64,P998,Electronics,Credit Card,Loyal,Warehouse C,205,Weekly
+T00020,2024-07-27 13:04:43.491451,672.26,P733,Electronics,Credit Card,New,Warehouse C,99,Daily
+T00021,2024-05-09 06:21:24.491451,922.5,P108,Electronics,Online Payment,Regular,Warehouse A,31,Daily
+T00022,2024-02-24 10:30:55.491451,886.69,P204,Electronics,Cash,New,Storefront,265,Daily
+T00023,2024-02-07 14:36:30.491451,625.26,P206,Clothing,Credit Card,Regular,Warehouse A,333,Bi-weekly
+T00024,2023-09-18 06:29:25.491451,88.67,P466,Toys,Cash,Regular,Warehouse A,444,Weekly
+T00025,2023-10-24 12:58:41.491451,235.6,P885,Furniture,Online Payment,Regular,Storefront,236,Monthly
+T00026,2024-06-28 02:21:30.491451,230.42,P443,Clothing,Online Payment,Regular,Warehouse B,166,Weekly
+T00027,2024-07-14 18:12:11.491451,118.36,P263,Clothing,Credit Card,Loyal,Storefront,345,Monthly
+T00028,2023-11-30 23:05:05.491451,87.7,P798,Grocery,Cash,New,Warehouse B,383,Bi-weekly
+T00029,2023-09-04 06:11:34.491451,113.19,P194,Clothing,Online Payment,Regular,Storefront,171,Monthly
+T00030,2023-12-22 07:40:46.491451,688.74,P986,Toys,Cash,New,Warehouse A,348,Daily
+T00031,2024-08-13 09:46:49.491451,674.12,P604,Grocery,Credit Card,Regular,Storefront,370,Daily
+T00032,2024-02-29 07:46:55.491451,777.84,P912,Clothing,Online Payment,Loyal,Storefront,216,Daily
+T00033,2023-12-07 20:58:24.491451,476.06,P812,Furniture,Cash,Regular,Warehouse C,256,Bi-weekly
+T00034,2023-12-30 10:52:57.491451,722.87,P180,Grocery,Debit Card,Regular,Storefront,179,Bi-weekly
+T00035,2023-11-16 23:26:59.491451,15.02,P724,Furniture,Credit Card,Regular,Warehouse B,195,Weekly
+T00036,2024-01-29 20:35:43.491451,635.79,P919,Grocery,Credit Card,Regular,Storefront,288,Weekly
+T00037,2023-10-05 19:53:48.491451,172.32,P172,Electronics,Online Payment,New,Warehouse C,204,Daily
+T00038,2024-05-10 15:39:59.491451,320.87,P859,Grocery,Cash,New,Storefront,290,Daily
+T00039,2024-08-05 18:24:42.491451,44.43,P340,Electronics,Online Payment,New,Warehouse C,196,Bi-weekly
+T00040,2024-06-15 07:09:08.491451,496.49,P329,Furniture,Online Payment,Regular,Warehouse C,84,Monthly
+T00041,2023-12-12 07:26:05.491451,592.38,P623,Clothing,Cash,New,Storefront,489,Bi-weekly
+T00042,2024-01-07 02:20:39.491451,513.58,P611,Toys,Cash,New,Storefront,304,Daily
+T00043,2024-04-05 01:37:08.491451,147.27,P185,Furniture,Cash,Regular,Warehouse A,274,Bi-weekly
+T00044,2024-05-31 18:43:16.491451,499.23,P336,Toys,Cash,Loyal,Warehouse A,376,Weekly
+T00045,2024-03-31 13:48:22.491451,667.05,P513,Toys,Online Payment,Loyal,Warehouse C,155,Monthly
+T00046,2024-06-29 15:32:46.491451,371.0,P233,Clothing,Debit Card,Regular,Warehouse C,110,Monthly
+T00047,2024-06-30 15:08:36.491451,325.46,P885,Clothing,Credit Card,New,Warehouse B,327,Weekly
+T00048,2023-10-22 17:26:57.491451,404.13,P202,Toys,Online Payment,Loyal,Warehouse A,478,Weekly
+T00049,2024-02-15 10:49:54.491451,485.3,P639,Grocery,Cash,New,Warehouse C,231,Bi-weekly
+T00050,2023-10-13 07:33:30.491451,754.51,P827,Grocery,Cash,Regular,Storefront,186,Bi-weekly
+T00051,2024-06-21 14:45:47.491451,889.5,P726,Grocery,Credit Card,Regular,Warehouse C,75,Monthly
+T00052,2024-01-09 14:48:51.491451,785.72,P599,Electronics,Online Payment,Regular,Warehouse B,145,Bi-weekly
+T00053,2024-01-22 07:41:30.491451,617.07,P126,Clothing,Cash,Loyal,Warehouse B,430,Daily
+T00054,2024-03-04 02:19:47.491451,873.15,P616,Electronics,Credit Card,Loyal,Warehouse B,91,Daily
+T00055,2024-04-01 20:10:02.491451,61.86,P622,Clothing,Cash,New,Warehouse A,337,Bi-weekly
+T00056,2024-03-29 09:43:28.491451,262.25,P501,Electronics,Online Payment,New,Warehouse C,64,Daily
+T00057,2024-04-09 22:36:29.491451,348.86,P931,Grocery,Cash,Regular,Storefront,221,Daily
+T00058,2023-09-19 01:45:04.491451,885.57,P726,Clothing,Debit Card,Loyal,Storefront,358,Daily
+T00059,2023-09-29 08:25:54.491451,350.22,P658,Furniture,Cash,Regular,Warehouse C,44,Bi-weekly
+T00060,2024-02-14 21:20:21.491451,317.51,P669,Electronics,Credit Card,New,Storefront,137,Weekly
+T00061,2024-06-12 15:37:43.491451,671.6,P587,Toys,Credit Card,New,Warehouse A,172,Daily
+T00062,2023-11-14 01:16:02.491451,605.05,P690,Toys,Cash,Loyal,Warehouse A,110,Monthly
+T00063,2023-12-09 05:17:38.491451,777.33,P703,Grocery,Cash,Regular,Warehouse B,266,Daily
+T00064,2024-08-18 21:23:21.491451,629.13,P512,Clothing,Credit Card,Loyal,Storefront,149,Bi-weekly
+T00065,2024-04-28 02:05:12.491451,580.74,P188,Furniture,Credit Card,New,Warehouse B,256,Weekly
+T00066,2024-06-18 07:50:08.491451,515.38,P271,Toys,Cash,New,Warehouse B,495,Bi-weekly
+T00067,2023-10-16 13:10:56.491451,970.73,P655,Grocery,Debit Card,Loyal,Warehouse B,489,Weekly
+T00068,2024-04-02 17:36:12.491451,708.54,P848,Grocery,Cash,Loyal,Warehouse A,424,Bi-weekly
+T00069,2024-04-20 06:55:25.491451,886.42,P291,Furniture,Cash,New,Warehouse B,458,Daily
+T00070,2024-01-31 12:30:32.491451,635.72,P949,Toys,Credit Card,Regular,Warehouse B,115,Daily
+T00071,2024-05-19 16:10:48.491451,785.89,P177,Furniture,Online Payment,New,Warehouse B,264,Weekly
+T00072,2024-08-02 00:00:31.491451,324.57,P402,Grocery,Credit Card,Loyal,Warehouse B,419,Monthly
+T00073,2023-12-28 10:35:05.491451,151.73,P234,Furniture,Online Payment,New,Warehouse A,214,Monthly
+T00074,2024-04-16 08:53:02.491451,444.88,P599,Clothing,Debit Card,Loyal,Warehouse C,69,Weekly
+T00075,2024-01-14 23:29:25.491451,138.97,P458,Grocery,Credit Card,Loyal,Warehouse B,329,Monthly
+T00076,2024-03-09 11:04:23.491451,990.69,P230,Toys,Cash,New,Warehouse A,286,Monthly
+T00077,2024-07-08 16:05:34.491451,662.04,P532,Toys,Online Payment,Regular,Warehouse A,414,Monthly
+T00078,2023-10-03 09:14:36.491451,225.42,P215,Clothing,Cash,New,Warehouse A,209,Daily
+T00079,2024-05-24 08:15:05.491451,173.45,P178,Electronics,Debit Card,New,Warehouse C,103,Bi-weekly
+T00080,2023-11-30 03:33:17.491451,48.82,P626,Toys,Online Payment,New,Warehouse C,220,Monthly
+T00081,2023-11-12 23:15:53.491451,875.38,P577,Toys,Debit Card,Loyal,Storefront,71,Weekly
+T00082,2023-10-12 00:54:54.491451,561.64,P822,Electronics,Credit Card,Regular,Warehouse B,392,Weekly
+T00083,2023-10-26 20:27:02.491451,500.53,P184,Toys,Cash,Loyal,Warehouse B,80,Daily
+T00084,2024-03-17 01:46:56.491451,346.54,P992,Grocery,Online Payment,Loyal,Warehouse A,222,Weekly
+T00085,2023-09-28 03:47:07.491451,843.51,P354,Toys,Credit Card,Regular,Warehouse B,321,Bi-weekly
+T00086,2024-06-14 17:16:06.491451,490.06,P540,Furniture,Cash,Loyal,Warehouse A,407,Bi-weekly
+T00087,2024-05-09 13:13:46.491451,818.77,P732,Electronics,Debit Card,New,Warehouse C,153,Daily
+T00088,2024-04-24 00:24:37.491451,206.42,P541,Toys,Debit Card,New,Warehouse B,250,Weekly
+T00089,2024-04-28 22:55:41.491451,189.41,P792,Clothing,Cash,Loyal,Storefront,88,Weekly
+T00090,2024-08-22 01:46:01.491451,858.73,P753,Furniture,Debit Card,Regular,Warehouse C,359,Weekly
+T00091,2023-08-26 02:38:44.491451,522.24,P600,Clothing,Debit Card,Loyal,Storefront,494,Daily
+T00092,2024-01-07 23:36:15.491451,264.32,P283,Furniture,Debit Card,Loyal,Storefront,448,Bi-weekly
+T00093,2023-11-18 09:44:59.491451,498.8,P898,Toys,Online Payment,Loyal,Storefront,248,Monthly
+T00094,2024-06-08 11:30:33.491451,247.61,P554,Clothing,Online Payment,Loyal,Storefront,22,Monthly
+T00095,2024-05-18 01:08:28.491451,271.53,P554,Toys,Online Payment,Regular,Warehouse C,38,Weekly
+T00096,2024-05-02 00:51:22.491451,683.02,P286,Furniture,Online Payment,Regular,Storefront,110,Daily
+T00097,2023-09-23 02:00:45.491451,695.0,P736,Grocery,Credit Card,New,Warehouse A,292,Weekly
+T00098,2023-11-11 09:08:20.491451,904.69,P794,Electronics,Cash,Regular,Warehouse A,257,Weekly
+T00099,2023-11-28 19:17:43.491451,474.63,P388,Clothing,Cash,Loyal,Warehouse B,142,Monthly
+T00100,2024-02-24 18:12:38.491451,599.83,P976,Toys,Debit Card,Regular,Warehouse C,446,Weekly
+T00101,2024-07-02 14:53:34.491451,426.79,P389,Electronics,Debit Card,Regular,Storefront,378,Bi-weekly
+T00102,2024-06-24 01:41:28.491451,344.93,P535,Furniture,Cash,Loyal,Storefront,32,Weekly
+T00103,2024-04-27 17:56:37.491451,398.08,P411,Clothing,Cash,Loyal,Warehouse C,279,Weekly
+T00104,2023-11-11 14:19:48.491451,689.07,P666,Furniture,Online Payment,Loyal,Storefront,144,Bi-weekly
+T00105,2024-06-17 15:11:03.491451,272.69,P251,Electronics,Debit Card,Regular,Warehouse C,149,Monthly
+T00106,2023-12-22 04:40:00.491451,350.54,P349,Furniture,Debit Card,Regular,Warehouse B,94,Bi-weekly
+T00107,2023-12-23 07:47:48.491451,383.1,P909,Furniture,Debit Card,New,Storefront,77,Daily
+T00108,2024-04-16 10:08:41.491451,938.51,P947,Toys,Credit Card,Regular,Warehouse B,38,Monthly
+T00109,2023-08-27 08:48:11.491451,283.83,P474,Clothing,Credit Card,Loyal,Warehouse A,354,Bi-weekly
+T00110,2024-05-31 04:43:35.491451,882.77,P886,Clothing,Cash,New,Storefront,435,Weekly
+T00111,2024-03-17 11:10:03.491451,984.96,P671,Electronics,Debit Card,New,Warehouse C,81,Weekly
+T00112,2024-06-28 05:40:51.491451,670.17,P988,Grocery,Debit Card,Regular,Warehouse B,27,Monthly
+T00113,2024-01-01 10:08:53.491451,304.4,P592,Clothing,Credit Card,Regular,Warehouse A,458,Monthly
+T00114,2024-07-12 01:27:34.491451,861.43,P623,Furniture,Debit Card,Regular,Warehouse A,340,Monthly
+T00115,2023-10-16 03:43:02.491451,658.98,P755,Clothing,Credit Card,Loyal,Warehouse A,273,Monthly
+T00116,2023-12-05 08:13:53.491451,685.71,P625,Grocery,Credit Card,New,Warehouse A,151,Monthly
+T00117,2024-08-20 11:18:23.491451,375.11,P218,Toys,Cash,Regular,Warehouse C,386,Weekly
+T00118,2024-02-10 05:09:44.491451,727.63,P353,Toys,Credit Card,Regular,Storefront,239,Daily
+T00119,2024-04-07 13:21:52.491451,885.64,P115,Furniture,Debit Card,New,Storefront,332,Daily
+T00120,2024-02-16 09:33:59.491451,278.42,P181,Clothing,Debit Card,Regular,Storefront,183,Monthly
+T00121,2023-09-26 21:27:44.491451,884.98,P753,Clothing,Online Payment,New,Warehouse A,109,Bi-weekly
+T00122,2023-12-22 08:09:16.491451,258.74,P247,Clothing,Cash,Regular,Warehouse C,180,Monthly
+T00123,2023-11-04 21:15:38.491451,63.9,P321,Electronics,Credit Card,Regular,Warehouse A,264,Bi-weekly
+T00124,2024-03-02 05:27:00.491451,136.1,P965,Clothing,Online Payment,Regular,Storefront,218,Daily
+T00125,2024-01-15 21:06:48.491451,758.32,P169,Clothing,Cash,Regular,Storefront,126,Weekly
+T00126,2024-03-09 12:45:36.491451,800.39,P233,Toys,Online Payment,New,Warehouse A,203,Monthly
+T00127,2024-08-11 14:42:20.491451,831.57,P479,Grocery,Online Payment,New,Storefront,408,Monthly
+T00128,2024-06-13 11:36:28.491451,318.54,P590,Toys,Cash,Regular,Warehouse A,338,Weekly
+T00129,2024-04-02 21:04:24.491451,502.1,P408,Electronics,Debit Card,Loyal,Storefront,372,Daily
+T00130,2023-11-21 11:20:35.491451,358.42,P595,Grocery,Online Payment,New,Warehouse B,434,Weekly
+T00131,2023-10-26 21:39:39.491451,130.25,P108,Toys,Debit Card,New,Warehouse C,389,Weekly
+T00132,2024-05-18 01:11:20.491451,440.15,P365,Clothing,Credit Card,New,Warehouse A,106,Monthly
+T00133,2023-09-09 11:03:07.491451,237.2,P739,Grocery,Credit Card,Regular,Storefront,446,Bi-weekly
+T00134,2023-09-19 18:09:52.491451,298.87,P845,Clothing,Cash,Regular,Storefront,283,Bi-weekly
+T00135,2023-11-17 15:24:08.491451,619.11,P449,Clothing,Credit Card,New,Warehouse A,493,Bi-weekly
+T00136,2023-12-08 22:44:22.491451,953.77,P933,Furniture,Cash,Regular,Storefront,196,Daily
+T00137,2024-03-13 15:10:58.491451,389.51,P209,Electronics,Debit Card,Regular,Warehouse C,178,Bi-weekly
+T00138,2023-11-21 05:49:12.491451,648.05,P131,Toys,Credit Card,Loyal,Warehouse C,444,Weekly
+T00139,2023-12-11 06:05:17.491451,55.21,P110,Toys,Debit Card,New,Storefront,333,Daily
+T00140,2024-07-10 00:20:10.491451,833.79,P835,Toys,Online Payment,New,Warehouse B,241,Weekly
+T00141,2024-01-27 13:42:01.491451,66.43,P724,Electronics,Cash,New,Warehouse A,20,Weekly
+T00142,2023-12-17 18:52:08.491451,53.81,P974,Toys,Credit Card,Regular,Storefront,71,Monthly
+T00143,2024-01-29 18:49:27.491451,794.97,P686,Grocery,Credit Card,New,Warehouse B,311,Monthly
+T00144,2024-05-27 05:07:54.491451,149.44,P972,Electronics,Cash,New,Warehouse A,497,Weekly
+T00145,2023-08-29 18:10:11.491451,168.84,P894,Grocery,Credit Card,New,Warehouse B,34,Bi-weekly
+T00146,2024-04-04 03:16:06.491451,452.89,P801,Furniture,Debit Card,Loyal,Warehouse C,154,Monthly
+T00147,2024-03-21 22:54:02.491451,82.98,P632,Clothing,Cash,New,Warehouse C,186,Daily
+T00148,2023-12-03 03:30:57.491451,656.45,P879,Clothing,Cash,Regular,Storefront,60,Bi-weekly
+T00149,2023-12-03 03:08:54.491451,966.04,P923,Furniture,Debit Card,Loyal,Warehouse C,377,Daily
+T00150,2024-02-26 12:58:02.491451,438.91,P648,Furniture,Debit Card,Regular,Warehouse C,123,Monthly
+T00151,2024-04-04 11:13:36.491451,947.21,P863,Grocery,Credit Card,Loyal,Warehouse A,4,Daily
+T00152,2024-01-30 10:46:55.491451,288.8,P320,Electronics,Online Payment,Regular,Warehouse B,96,Daily
+T00153,2023-10-01 14:47:01.491451,981.28,P646,Toys,Cash,New,Storefront,94,Daily
+T00154,2023-08-29 15:15:47.491451,949.47,P729,Grocery,Credit Card,New,Warehouse B,327,Daily
+T00155,2023-11-10 08:09:44.491451,268.8,P978,Grocery,Cash,Regular,Storefront,11,Weekly
+T00156,2023-10-31 07:09:25.491451,272.41,P502,Clothing,Credit Card,New,Warehouse A,368,Monthly
+T00157,2024-05-22 18:32:11.491451,489.49,P334,Toys,Credit Card,Loyal,Warehouse C,405,Bi-weekly
+T00158,2024-08-05 12:11:11.491451,507.59,P427,Grocery,Online Payment,New,Warehouse B,229,Daily
+T00159,2023-10-31 10:34:34.491451,860.71,P329,Clothing,Credit Card,Loyal,Warehouse C,24,Bi-weekly
+T00160,2024-05-31 09:23:37.491451,168.34,P944,Toys,Debit Card,New,Storefront,404,Weekly
+T00161,2024-03-25 09:39:40.491451,391.06,P212,Electronics,Credit Card,Regular,Warehouse C,7,Weekly
+T00162,2024-03-23 15:16:47.491451,330.9,P163,Toys,Online Payment,Regular,Warehouse A,420,Daily
+T00163,2024-05-21 19:21:19.491451,861.25,P339,Toys,Credit Card,Loyal,Warehouse C,203,Bi-weekly
+T00164,2024-01-02 23:42:24.491451,972.01,P143,Toys,Debit Card,Regular,Warehouse A,263,Weekly
+T00165,2024-06-05 17:32:17.491451,636.9,P919,Grocery,Online Payment,Loyal,Warehouse C,36,Weekly
+T00166,2024-02-15 18:25:37.491451,350.83,P874,Electronics,Credit Card,Loyal,Warehouse B,339,Monthly
+T00167,2024-02-15 10:00:57.491451,814.58,P151,Toys,Credit Card,Regular,Warehouse A,74,Bi-weekly
+T00168,2023-09-25 08:00:02.491451,835.08,P491,Clothing,Debit Card,Regular,Warehouse B,53,Monthly
+T00169,2024-03-21 05:14:57.491451,46.0,P887,Clothing,Cash,New,Warehouse C,136,Bi-weekly
+T00170,2024-08-21 03:23:58.491451,639.3,P293,Toys,Online Payment,New,Warehouse A,357,Monthly
+T00171,2023-12-10 13:46:53.491451,16.06,P601,Toys,Credit Card,New,Warehouse A,205,Daily
+T00172,2024-07-26 00:16:22.491451,330.89,P760,Clothing,Debit Card,Loyal,Warehouse A,116,Bi-weekly
+T00173,2024-02-23 08:29:14.491451,386.21,P633,Clothing,Cash,Regular,Warehouse C,236,Weekly
+T00174,2024-07-22 07:47:06.491451,543.92,P309,Grocery,Online Payment,New,Warehouse B,440,Daily
+T00175,2023-10-11 04:57:39.491451,666.61,P921,Clothing,Cash,New,Warehouse A,216,Monthly
+T00176,2024-02-06 10:52:34.491451,916.23,P652,Grocery,Cash,Loyal,Warehouse B,193,Weekly
+T00177,2024-02-14 12:43:09.491451,995.42,P562,Toys,Online Payment,New,Warehouse A,138,Daily
+T00178,2024-05-11 22:07:26.491451,166.23,P140,Furniture,Cash,Loyal,Warehouse A,118,Bi-weekly
+T00179,2023-12-06 19:43:51.491451,243.33,P678,Electronics,Debit Card,New,Storefront,52,Monthly
+T00180,2024-03-06 13:24:07.491451,95.45,P141,Toys,Credit Card,New,Warehouse A,322,Weekly
+T00181,2024-07-01 08:05:56.491451,933.34,P468,Furniture,Cash,Regular,Warehouse B,71,Weekly
+T00182,2024-04-24 07:47:53.491451,467.32,P643,Clothing,Cash,Regular,Warehouse B,238,Daily
+T00183,2023-12-16 21:59:00.491451,523.95,P132,Toys,Debit Card,Loyal,Warehouse B,245,Bi-weekly
+T00184,2024-03-07 08:32:23.491451,672.57,P828,Clothing,Credit Card,Regular,Warehouse A,50,Bi-weekly
+T00185,2023-10-06 01:35:57.491451,29.82,P688,Electronics,Credit Card,Loyal,Warehouse B,63,Monthly
+T00186,2024-05-20 23:46:14.491451,667.1,P730,Furniture,Credit Card,Regular,Storefront,177,Daily
+T00187,2024-07-09 01:20:22.491451,944.15,P389,Toys,Cash,Loyal,Storefront,182,Bi-weekly
+T00188,2024-02-12 09:26:45.491451,392.82,P884,Clothing,Credit Card,New,Warehouse C,274,Weekly
+T00189,2024-05-22 12:52:03.491451,718.0,P520,Grocery,Debit Card,Regular,Warehouse C,218,Monthly
+T00190,2024-02-25 21:53:01.491451,338.28,P386,Toys,Debit Card,New,Warehouse A,10,Bi-weekly
+T00191,2024-01-19 02:20:30.491451,764.38,P815,Clothing,Debit Card,New,Warehouse A,454,Bi-weekly
+T00192,2023-11-28 04:01:12.491451,415.31,P178,Furniture,Credit Card,New,Warehouse C,470,Monthly
+T00193,2023-12-21 02:42:56.491451,677.9,P296,Clothing,Online Payment,Loyal,Warehouse C,291,Bi-weekly
+T00194,2024-07-01 03:22:37.491451,801.06,P229,Clothing,Cash,New,Storefront,484,Bi-weekly
+T00195,2023-12-31 00:14:40.491451,644.84,P451,Grocery,Cash,Regular,Storefront,46,Bi-weekly
+T00196,2024-04-12 02:47:36.491451,117.61,P565,Furniture,Credit Card,New,Warehouse B,407,Daily
+T00197,2023-10-26 15:49:47.491451,772.47,P448,Clothing,Debit Card,Regular,Storefront,286,Monthly
+T00198,2024-07-01 21:11:37.491451,992.49,P287,Electronics,Online Payment,Regular,Warehouse A,51,Bi-weekly
+T00199,2024-04-11 14:55:28.491451,82.06,P378,Furniture,Credit Card,Regular,Warehouse A,146,Weekly
+T00200,2024-06-21 08:43:33.491451,385.58,P308,Electronics,Credit Card,Regular,Warehouse C,267,Weekly
+T00201,2024-06-25 17:36:38.491451,680.64,P415,Toys,Debit Card,New,Storefront,235,Daily
+T00202,2024-01-12 09:45:00.491451,230.18,P985,Clothing,Debit Card,Loyal,Warehouse C,388,Daily
+T00203,2023-11-29 15:58:59.491451,823.86,P175,Grocery,Online Payment,Regular,Warehouse B,443,Weekly
+T00204,2023-09-02 23:52:30.491451,92.37,P680,Electronics,Credit Card,Regular,Warehouse A,478,Bi-weekly
+T00205,2023-09-21 18:23:21.491451,43.35,P204,Clothing,Online Payment,New,Warehouse C,413,Bi-weekly
+T00206,2024-08-19 07:17:11.491451,194.71,P377,Toys,Debit Card,New,Warehouse B,443,Bi-weekly
+T00207,2023-09-07 09:39:42.491451,873.04,P489,Clothing,Cash,New,Warehouse B,259,Bi-weekly
+T00208,2024-07-17 03:46:24.491451,395.2,P859,Furniture,Debit Card,Regular,Warehouse A,115,Weekly
+T00209,2023-12-01 06:57:50.491451,357.25,P728,Furniture,Debit Card,Loyal,Warehouse C,393,Daily
+T00210,2023-11-01 23:44:42.491451,145.89,P336,Electronics,Credit Card,Loyal,Warehouse A,273,Daily
+T00211,2023-09-06 18:06:22.491451,357.98,P687,Toys,Debit Card,Regular,Storefront,310,Bi-weekly
+T00212,2023-12-25 18:12:09.491451,479.46,P720,Furniture,Cash,Loyal,Warehouse B,400,Bi-weekly
+T00213,2023-09-18 07:47:40.491451,428.32,P245,Toys,Debit Card,Loyal,Warehouse B,353,Bi-weekly
+T00214,2024-05-23 16:57:59.491451,51.08,P533,Furniture,Credit Card,Loyal,Storefront,103,Bi-weekly
+T00215,2024-03-18 22:21:48.491451,698.07,P277,Electronics,Online Payment,Loyal,Warehouse B,117,Weekly
+T00216,2024-08-04 02:07:12.491451,549.77,P668,Furniture,Debit Card,Regular,Storefront,38,Daily
+T00217,2024-03-14 15:02:46.491451,347.34,P970,Clothing,Credit Card,Loyal,Warehouse A,211,Weekly
+T00218,2024-04-26 16:54:42.491451,414.9,P851,Clothing,Credit Card,Loyal,Warehouse A,427,Bi-weekly
+T00219,2024-07-09 10:45:05.491451,878.02,P407,Electronics,Credit Card,New,Warehouse A,137,Monthly
+T00220,2024-07-03 21:08:09.491451,451.11,P390,Toys,Credit Card,New,Warehouse C,385,Bi-weekly
+T00221,2023-10-06 17:59:31.491451,293.62,P874,Grocery,Online Payment,New,Storefront,156,Monthly
+T00222,2023-09-18 23:32:12.491451,268.98,P428,Toys,Cash,New,Warehouse A,260,Monthly
+T00223,2023-10-05 22:10:19.491451,948.94,P383,Electronics,Credit Card,New,Warehouse B,136,Bi-weekly
+T00224,2024-05-18 07:01:57.491451,304.04,P533,Electronics,Cash,New,Warehouse C,359,Monthly
+T00225,2023-09-02 18:46:45.491451,775.82,P578,Furniture,Online Payment,New,Storefront,484,Monthly
+T00226,2023-12-09 15:28:22.491451,909.79,P242,Toys,Cash,Loyal,Warehouse A,422,Monthly
+T00227,2024-02-23 01:57:02.491451,886.63,P506,Clothing,Online Payment,Regular,Storefront,296,Monthly
+T00228,2024-03-15 14:51:11.491451,500.72,P988,Clothing,Cash,Regular,Warehouse B,463,Daily
+T00229,2024-01-20 15:15:58.491451,803.94,P672,Clothing,Credit Card,Loyal,Storefront,323,Weekly
+T00230,2024-04-22 18:10:27.491451,143.58,P783,Grocery,Debit Card,Loyal,Warehouse A,270,Weekly
+T00231,2024-01-29 10:37:15.491451,184.22,P411,Grocery,Debit Card,New,Warehouse C,268,Monthly
+T00232,2023-10-14 05:44:22.491451,681.9,P710,Clothing,Online Payment,Loyal,Storefront,372,Monthly
+T00233,2024-05-17 07:13:49.491451,424.27,P153,Clothing,Cash,Regular,Storefront,298,Weekly
+T00234,2023-09-07 14:28:01.491451,16.17,P833,Grocery,Online Payment,Loyal,Warehouse A,96,Weekly
+T00235,2023-11-10 08:25:03.491451,910.46,P308,Clothing,Credit Card,New,Storefront,103,Bi-weekly
+T00236,2024-02-11 11:38:03.491451,952.66,P180,Grocery,Credit Card,New,Warehouse A,144,Weekly
+T00237,2023-09-23 18:24:38.491451,655.54,P217,Furniture,Debit Card,New,Warehouse A,173,Bi-weekly
+T00238,2023-12-08 18:58:46.491451,776.32,P162,Furniture,Online Payment,Regular,Warehouse A,56,Weekly
+T00239,2024-02-16 06:46:26.491451,882.81,P842,Clothing,Debit Card,Regular,Warehouse C,286,Daily
+T00240,2024-03-17 19:05:29.491451,77.27,P793,Furniture,Cash,Loyal,Warehouse B,38,Bi-weekly
+T00241,2024-01-01 21:39:43.491451,760.68,P913,Electronics,Credit Card,Loyal,Storefront,383,Daily
+T00242,2023-09-05 07:24:09.491451,975.7,P180,Furniture,Cash,New,Warehouse C,186,Monthly
+T00243,2024-08-21 20:12:19.491451,719.92,P670,Toys,Cash,Regular,Storefront,25,Weekly
+T00244,2023-11-07 21:28:16.491451,919.24,P738,Clothing,Online Payment,New,Warehouse C,246,Bi-weekly
+T00245,2024-07-06 07:34:59.491451,132.49,P286,Grocery,Credit Card,Loyal,Warehouse B,305,Weekly
+T00246,2024-02-26 09:57:36.491451,435.88,P998,Grocery,Credit Card,Regular,Warehouse B,298,Weekly
+T00247,2024-07-09 10:13:18.491451,280.43,P882,Electronics,Cash,New,Storefront,25,Monthly
+T00248,2023-09-09 03:07:38.491451,248.58,P540,Electronics,Cash,Loyal,Warehouse B,158,Monthly
+T00249,2024-07-05 02:33:51.491451,345.81,P876,Clothing,Credit Card,Regular,Warehouse C,125,Monthly
+T00250,2023-10-17 18:49:13.491451,170.23,P298,Grocery,Credit Card,Loyal,Warehouse B,354,Weekly
+T00251,2024-03-09 08:10:37.491451,110.52,P473,Clothing,Credit Card,Loyal,Storefront,52,Monthly
+T00252,2023-09-17 01:04:21.491451,730.28,P654,Toys,Cash,Regular,Warehouse B,117,Bi-weekly
+T00253,2024-08-19 22:30:06.491451,479.87,P162,Electronics,Cash,Loyal,Warehouse A,68,Bi-weekly
+T00254,2024-01-07 19:25:05.491451,264.4,P272,Electronics,Credit Card,New,Warehouse A,264,Weekly
+T00255,2023-11-09 00:05:17.491451,722.33,P181,Electronics,Online Payment,New,Warehouse B,100,Daily
+T00256,2024-02-08 04:24:57.491451,52.97,P988,Furniture,Debit Card,Loyal,Warehouse B,346,Daily
+T00257,2024-07-16 13:29:00.491451,666.43,P268,Clothing,Cash,Loyal,Warehouse A,26,Weekly
+T00258,2023-12-07 05:46:46.491451,249.16,P184,Electronics,Credit Card,Loyal,Warehouse C,10,Daily
+T00259,2024-05-14 10:04:40.491451,669.08,P338,Electronics,Cash,New,Warehouse A,422,Monthly
+T00260,2024-01-17 20:20:21.491451,649.93,P605,Clothing,Credit Card,New,Warehouse A,333,Daily
+T00261,2024-05-26 07:21:09.491451,835.15,P322,Clothing,Credit Card,Regular,Warehouse C,397,Monthly
+T00262,2023-11-08 01:03:39.491451,247.96,P663,Electronics,Debit Card,Regular,Warehouse B,235,Weekly
+T00263,2023-10-18 02:19:11.491451,443.82,P190,Electronics,Online Payment,Loyal,Warehouse B,194,Weekly
+T00264,2024-04-01 02:32:54.491451,272.7,P168,Clothing,Online Payment,New,Warehouse A,226,Bi-weekly
+T00265,2023-09-30 19:40:20.491451,583.37,P623,Electronics,Online Payment,Loyal,Storefront,131,Monthly
+T00266,2023-12-25 01:05:59.491451,465.53,P743,Electronics,Debit Card,Regular,Warehouse A,358,Weekly
+T00267,2024-03-21 17:37:44.491451,287.12,P784,Toys,Debit Card,New,Storefront,323,Weekly
+T00268,2023-10-19 10:19:31.491451,491.26,P196,Electronics,Online Payment,New,Warehouse B,237,Monthly
+T00269,2024-07-12 15:53:27.491451,829.13,P983,Toys,Cash,Loyal,Warehouse B,485,Bi-weekly
+T00270,2024-07-22 22:04:52.491451,366.66,P156,Grocery,Online Payment,Loyal,Storefront,393,Monthly
+T00271,2024-08-18 19:41:29.491451,732.08,P636,Clothing,Debit Card,Loyal,Warehouse C,138,Monthly
+T00272,2023-12-09 20:47:10.491451,134.71,P817,Toys,Credit Card,New,Warehouse A,192,Monthly
+T00273,2024-05-14 18:24:59.491451,37.11,P609,Grocery,Credit Card,New,Warehouse C,96,Monthly
+T00274,2024-04-02 14:07:21.491451,772.74,P579,Electronics,Online Payment,Regular,Warehouse A,165,Weekly
+T00275,2024-07-15 04:03:19.491451,964.6,P555,Toys,Debit Card,Loyal,Warehouse A,87,Daily
+T00276,2023-10-25 16:34:00.491451,835.98,P410,Furniture,Cash,Regular,Storefront,373,Bi-weekly
+T00277,2024-02-23 10:33:11.491451,480.47,P875,Clothing,Credit Card,Regular,Storefront,359,Bi-weekly
+T00278,2023-10-08 06:35:48.491451,557.12,P340,Grocery,Debit Card,Loyal,Storefront,201,Monthly
+T00279,2024-03-11 16:08:19.491451,264.36,P399,Clothing,Cash,Loyal,Warehouse B,470,Bi-weekly
+T00280,2024-06-23 20:25:44.491451,851.55,P987,Electronics,Cash,Regular,Warehouse C,252,Bi-weekly
+T00281,2024-03-31 02:25:59.491451,910.57,P294,Toys,Online Payment,New,Storefront,255,Daily
+T00282,2024-03-22 19:24:28.491451,235.08,P544,Toys,Credit Card,Loyal,Storefront,408,Bi-weekly
+T00283,2024-06-08 09:34:26.491451,149.06,P153,Clothing,Credit Card,New,Warehouse A,129,Daily
+T00284,2024-05-12 13:16:12.491451,353.43,P314,Toys,Debit Card,Regular,Storefront,39,Monthly
+T00285,2023-10-03 22:43:50.491451,634.95,P982,Electronics,Credit Card,Loyal,Warehouse C,307,Bi-weekly
+T00286,2024-06-06 09:09:42.491451,925.96,P873,Clothing,Cash,Regular,Warehouse C,252,Bi-weekly
+T00287,2024-01-01 17:58:21.491451,219.18,P694,Toys,Online Payment,Loyal,Warehouse C,42,Bi-weekly
+T00288,2024-04-06 23:41:05.491451,451.37,P617,Furniture,Cash,Regular,Warehouse B,209,Monthly
+T00289,2024-08-02 07:20:20.491451,811.17,P834,Toys,Credit Card,Loyal,Storefront,398,Bi-weekly
+T00290,2024-07-28 18:17:41.491451,44.39,P974,Toys,Online Payment,Loyal,Warehouse B,80,Weekly
+T00291,2024-02-19 17:41:04.491451,629.52,P876,Clothing,Debit Card,Loyal,Storefront,313,Monthly
+T00292,2023-11-22 04:16:59.491451,145.73,P156,Furniture,Cash,Loyal,Storefront,114,Monthly
+T00293,2024-04-16 23:09:32.491451,124.54,P789,Clothing,Debit Card,Regular,Warehouse B,437,Bi-weekly
+T00294,2023-11-25 17:48:22.491451,909.24,P581,Clothing,Cash,New,Warehouse B,36,Daily
+T00295,2024-02-20 13:18:44.491451,137.48,P921,Toys,Online Payment,Regular,Warehouse A,277,Daily
+T00296,2024-02-13 17:51:41.491451,807.36,P896,Toys,Cash,Loyal,Warehouse B,203,Monthly
+T00297,2023-11-15 14:50:37.491451,766.88,P364,Furniture,Credit Card,Loyal,Warehouse C,117,Monthly
+T00298,2024-07-23 23:35:53.491451,603.88,P844,Toys,Cash,Regular,Warehouse B,227,Daily
+T00299,2024-08-04 04:07:32.491451,693.58,P391,Furniture,Cash,New,Warehouse A,418,Bi-weekly
+T00300,2024-01-27 03:08:38.491451,12.82,P106,Clothing,Online Payment,Loyal,Warehouse A,497,Monthly
+T00301,2023-12-10 23:06:21.491451,110.75,P631,Toys,Credit Card,Loyal,Warehouse C,55,Bi-weekly
+T00302,2023-08-26 21:31:47.491451,676.34,P311,Electronics,Debit Card,Loyal,Warehouse C,128,Monthly
+T00303,2024-05-09 03:40:48.491451,139.3,P186,Toys,Credit Card,Regular,Warehouse A,373,Weekly
+T00304,2024-06-30 23:45:18.491451,546.77,P597,Grocery,Online Payment,Loyal,Warehouse A,142,Weekly
+T00305,2024-06-14 11:29:00.491451,142.84,P141,Electronics,Cash,Regular,Storefront,346,Weekly
+T00306,2024-01-10 08:31:26.491451,464.06,P117,Toys,Cash,Regular,Warehouse A,80,Monthly
+T00307,2024-07-10 05:52:00.491451,654.97,P951,Electronics,Cash,Loyal,Warehouse B,249,Bi-weekly
+T00308,2024-01-07 10:11:11.491451,733.8,P314,Clothing,Online Payment,Regular,Warehouse C,91,Monthly
+T00309,2024-07-14 01:28:12.491451,732.05,P909,Grocery,Credit Card,New,Warehouse C,172,Bi-weekly
+T00310,2024-07-28 07:31:34.491451,158.35,P648,Clothing,Debit Card,Loyal,Warehouse C,308,Monthly
+T00311,2024-01-15 11:32:06.491451,913.38,P781,Grocery,Credit Card,Loyal,Warehouse C,447,Daily
+T00312,2023-11-21 22:52:44.491451,352.06,P933,Grocery,Debit Card,New,Warehouse A,378,Bi-weekly
+T00313,2024-05-21 04:44:58.491451,529.41,P123,Toys,Credit Card,Regular,Warehouse C,154,Bi-weekly
+T00314,2023-08-30 23:00:43.491451,54.67,P236,Furniture,Cash,Loyal,Storefront,486,Bi-weekly
+T00315,2024-02-16 01:53:32.491451,934.43,P671,Toys,Credit Card,Loyal,Warehouse B,48,Weekly
+T00316,2024-08-05 12:56:30.491451,992.96,P961,Clothing,Credit Card,Loyal,Storefront,429,Bi-weekly
+T00317,2023-12-13 06:07:03.491451,304.33,P279,Furniture,Debit Card,New,Warehouse C,242,Bi-weekly
+T00318,2024-05-02 04:13:03.491451,592.88,P830,Furniture,Debit Card,New,Warehouse B,237,Daily
+T00319,2024-06-07 14:31:27.491451,949.56,P594,Toys,Cash,Regular,Warehouse A,274,Weekly
+T00320,2023-12-14 11:56:10.491451,905.88,P349,Furniture,Credit Card,Regular,Warehouse B,309,Daily
+T00321,2023-11-26 15:32:04.491451,238.23,P952,Clothing,Debit Card,Loyal,Warehouse B,82,Weekly
+T00322,2023-11-21 07:45:06.491451,505.15,P155,Clothing,Credit Card,Regular,Warehouse B,394,Bi-weekly
+T00323,2024-01-07 10:23:28.491451,967.83,P108,Clothing,Cash,Loyal,Warehouse A,94,Daily
+T00324,2024-04-24 02:44:52.491451,998.79,P511,Electronics,Debit Card,Loyal,Warehouse B,273,Daily
+T00325,2024-07-20 10:09:44.491451,303.11,P469,Clothing,Credit Card,Loyal,Warehouse A,193,Weekly
+T00326,2024-08-05 00:18:28.491451,967.86,P685,Grocery,Credit Card,New,Warehouse C,105,Daily
+T00327,2024-08-19 15:10:33.491451,774.58,P753,Grocery,Debit Card,Regular,Warehouse B,271,Monthly
+T00328,2024-06-29 16:35:25.491451,958.88,P800,Electronics,Debit Card,Regular,Warehouse A,395,Bi-weekly
+T00329,2024-04-14 10:36:41.491451,881.01,P824,Furniture,Debit Card,Regular,Warehouse C,351,Weekly
+T00330,2023-10-28 01:50:36.491451,768.87,P296,Grocery,Credit Card,Regular,Warehouse A,442,Daily
+T00331,2024-06-12 09:46:50.491451,618.43,P330,Furniture,Online Payment,Regular,Warehouse C,60,Weekly
+T00332,2024-01-08 13:55:18.491451,100.12,P647,Grocery,Cash,Regular,Warehouse C,71,Daily
+T00333,2023-12-16 21:01:38.491451,806.54,P441,Grocery,Credit Card,Loyal,Warehouse C,498,Daily
+T00334,2023-12-10 23:06:28.491451,322.88,P353,Toys,Debit Card,New,Storefront,430,Bi-weekly
+T00335,2023-09-26 13:24:48.491451,585.09,P159,Grocery,Cash,New,Warehouse A,221,Daily
+T00336,2024-03-30 12:17:59.491451,731.44,P747,Clothing,Online Payment,Loyal,Warehouse A,124,Monthly
+T00337,2024-08-12 10:06:31.491451,343.93,P400,Electronics,Debit Card,New,Warehouse A,373,Weekly
+T00338,2024-07-16 13:16:05.491451,632.26,P586,Clothing,Debit Card,Regular,Warehouse C,119,Bi-weekly
+T00339,2024-04-17 08:42:04.491451,808.44,P497,Toys,Online Payment,Regular,Warehouse A,207,Bi-weekly
+T00340,2024-04-11 14:51:50.491451,703.33,P185,Grocery,Cash,Regular,Warehouse A,161,Monthly
+T00341,2024-04-10 17:54:57.491451,867.68,P264,Furniture,Cash,New,Warehouse B,444,Daily
+T00342,2024-03-11 15:52:31.491451,440.0,P213,Electronics,Debit Card,New,Warehouse B,416,Bi-weekly
+T00343,2024-08-17 03:22:07.491451,656.4,P280,Clothing,Credit Card,Loyal,Storefront,245,Weekly
+T00344,2024-05-18 02:06:58.492549,191.99,P346,Electronics,Debit Card,Regular,Warehouse C,500,Weekly
+T00345,2024-07-07 00:02:11.492549,130.59,P804,Clothing,Credit Card,Loyal,Storefront,3,Bi-weekly
+T00346,2024-03-29 23:29:37.492549,205.37,P345,Furniture,Credit Card,Loyal,Warehouse C,173,Monthly
+T00347,2024-01-26 02:33:07.492549,601.01,P382,Furniture,Debit Card,Regular,Warehouse C,228,Weekly
+T00348,2023-12-15 20:19:29.492549,482.22,P547,Furniture,Online Payment,Regular,Storefront,299,Monthly
+T00349,2024-04-02 04:05:59.492549,950.08,P744,Electronics,Debit Card,Loyal,Warehouse B,453,Daily
+T00350,2024-02-09 15:02:25.492549,881.56,P755,Furniture,Cash,New,Warehouse C,188,Bi-weekly
+T00351,2024-02-04 22:28:48.492549,776.92,P614,Toys,Debit Card,New,Storefront,341,Daily
+T00352,2024-04-15 19:52:46.492549,354.58,P698,Grocery,Credit Card,New,Storefront,65,Daily
+T00353,2024-07-21 23:02:40.492549,763.3,P701,Furniture,Debit Card,New,Storefront,377,Bi-weekly
+T00354,2023-12-17 17:25:44.492549,390.62,P336,Furniture,Debit Card,New,Warehouse A,339,Bi-weekly
+T00355,2024-03-23 11:37:47.492549,454.04,P846,Electronics,Debit Card,New,Warehouse B,322,Bi-weekly
+T00356,2024-02-20 10:14:06.492549,885.08,P976,Grocery,Online Payment,New,Warehouse B,212,Weekly
+T00357,2024-04-16 20:17:42.492549,765.5,P343,Electronics,Cash,Loyal,Warehouse C,29,Bi-weekly
+T00358,2024-04-06 20:20:09.492549,888.32,P871,Grocery,Cash,New,Warehouse A,427,Weekly
+T00359,2024-05-22 18:52:19.492549,312.21,P726,Toys,Debit Card,Regular,Storefront,414,Daily
+T00360,2024-01-06 12:22:32.492549,493.47,P136,Toys,Debit Card,New,Storefront,246,Daily
+T00361,2024-06-27 01:41:05.492549,38.59,P753,Furniture,Credit Card,New,Warehouse B,393,Monthly
+T00362,2024-01-29 14:42:49.492549,552.11,P212,Electronics,Credit Card,Regular,Warehouse B,16,Bi-weekly
+T00363,2024-04-08 21:42:19.492549,142.39,P762,Furniture,Credit Card,Regular,Warehouse B,499,Monthly
+T00364,2024-06-18 02:19:51.492549,731.28,P934,Grocery,Credit Card,Loyal,Warehouse B,249,Weekly
+T00365,2024-02-01 17:36:03.492549,638.2,P476,Clothing,Credit Card,Loyal,Warehouse A,108,Weekly
+T00366,2024-04-17 14:10:22.492549,893.64,P808,Toys,Debit Card,Loyal,Warehouse B,364,Daily
+T00367,2023-11-27 02:32:56.492549,756.87,P870,Toys,Debit Card,New,Warehouse A,236,Weekly
+T00368,2023-11-03 19:36:52.492549,765.81,P811,Clothing,Credit Card,Loyal,Storefront,318,Monthly
+T00369,2023-12-03 08:43:44.492549,123.87,P248,Electronics,Online Payment,Regular,Warehouse B,46,Bi-weekly
+T00370,2024-07-31 12:28:18.492549,975.45,P456,Toys,Credit Card,Loyal,Storefront,473,Bi-weekly
+T00371,2024-05-17 09:26:03.492549,519.74,P240,Grocery,Cash,New,Storefront,97,Daily
+T00372,2024-03-31 12:10:49.492549,751.29,P497,Clothing,Credit Card,Regular,Storefront,473,Daily
+T00373,2024-06-28 04:37:21.492549,97.67,P339,Electronics,Cash,New,Storefront,363,Bi-weekly
+T00374,2024-05-09 08:00:42.492549,492.6,P802,Toys,Credit Card,Regular,Storefront,449,Daily
+T00375,2024-02-09 15:57:39.492549,150.56,P427,Furniture,Online Payment,New,Warehouse B,143,Daily
+T00376,2024-01-26 11:23:31.492549,874.31,P427,Furniture,Credit Card,New,Storefront,290,Monthly
+T00377,2024-03-16 19:54:40.492549,275.1,P299,Toys,Debit Card,New,Storefront,42,Daily
+T00378,2024-01-26 21:13:53.492549,559.52,P434,Toys,Online Payment,Loyal,Warehouse C,280,Monthly
+T00379,2023-11-18 17:13:00.492549,829.26,P847,Toys,Credit Card,New,Storefront,300,Daily
+T00380,2023-09-14 18:06:50.492549,979.43,P752,Toys,Online Payment,Loyal,Warehouse B,119,Bi-weekly
+T00381,2023-12-08 21:30:09.492549,159.99,P648,Clothing,Debit Card,Loyal,Warehouse C,230,Bi-weekly
+T00382,2024-01-24 05:33:08.492549,600.83,P306,Clothing,Online Payment,New,Warehouse B,72,Daily
+T00383,2023-10-18 13:44:02.492549,488.42,P770,Furniture,Online Payment,Loyal,Storefront,34,Bi-weekly
+T00384,2024-05-02 17:14:59.492549,504.1,P563,Toys,Credit Card,Loyal,Storefront,194,Bi-weekly
+T00385,2024-03-06 17:49:02.492549,748.98,P197,Grocery,Debit Card,New,Warehouse A,136,Monthly
+T00386,2023-11-25 19:18:15.492549,452.11,P236,Furniture,Cash,New,Warehouse A,448,Bi-weekly
+T00387,2024-08-04 17:02:32.492549,865.04,P688,Clothing,Debit Card,New,Storefront,435,Bi-weekly
+T00388,2024-04-01 20:18:33.492549,537.09,P406,Toys,Online Payment,Loyal,Warehouse B,194,Monthly
+T00389,2023-10-31 10:47:47.492549,149.39,P655,Electronics,Debit Card,New,Warehouse A,365,Daily
+T00390,2024-08-08 20:42:12.492549,369.46,P566,Electronics,Credit Card,New,Warehouse A,32,Weekly
+T00391,2024-02-04 03:40:42.492549,201.44,P254,Furniture,Online Payment,Regular,Storefront,59,Weekly
+T00392,2024-01-19 19:28:36.492549,970.23,P962,Grocery,Credit Card,Regular,Warehouse B,497,Daily
+T00393,2024-06-12 18:30:03.492549,675.77,P922,Electronics,Debit Card,Regular,Warehouse C,291,Bi-weekly
+T00394,2023-12-15 21:49:58.492549,266.85,P106,Furniture,Online Payment,Regular,Warehouse A,105,Monthly
+T00395,2024-01-21 16:54:10.492549,395.42,P480,Clothing,Debit Card,New,Warehouse A,482,Daily
+T00396,2024-04-15 03:46:00.492549,126.36,P873,Toys,Credit Card,Regular,Storefront,136,Daily
+T00397,2024-03-11 08:28:19.492549,967.82,P110,Electronics,Credit Card,Regular,Warehouse C,252,Weekly
+T00398,2024-05-08 10:42:57.492549,803.05,P134,Clothing,Cash,Regular,Warehouse C,252,Bi-weekly
+T00399,2023-11-14 06:30:32.492549,367.06,P184,Grocery,Cash,New,Storefront,186,Daily
+T00400,2024-07-28 19:55:39.492549,710.67,P977,Toys,Cash,New,Warehouse C,267,Bi-weekly
+T00401,2023-12-17 12:22:19.492549,78.14,P725,Toys,Credit Card,New,Warehouse B,212,Daily
+T00402,2024-02-11 12:45:26.492549,408.22,P272,Electronics,Online Payment,Loyal,Warehouse C,333,Weekly
+T00403,2024-08-05 01:37:09.492549,964.83,P266,Toys,Online Payment,Loyal,Storefront,46,Monthly
+T00404,2024-08-21 15:08:03.492549,461.54,P895,Clothing,Cash,New,Warehouse C,79,Bi-weekly
+T00405,2023-09-07 08:03:13.492549,916.85,P737,Furniture,Online Payment,Loyal,Warehouse B,265,Weekly
+T00406,2023-10-15 15:34:42.492549,613.48,P746,Clothing,Credit Card,New,Warehouse C,33,Bi-weekly
+T00407,2024-02-09 21:58:05.492549,337.85,P207,Grocery,Cash,Loyal,Warehouse C,393,Weekly
+T00408,2023-10-26 21:50:15.492549,938.02,P724,Furniture,Debit Card,Regular,Warehouse A,70,Weekly
+T00409,2023-11-16 19:32:12.492549,453.79,P850,Electronics,Cash,Regular,Storefront,31,Weekly
+T00410,2024-05-11 12:51:00.492549,878.89,P856,Furniture,Online Payment,Regular,Warehouse B,214,Bi-weekly
+T00411,2024-02-05 05:02:23.492549,22.17,P631,Electronics,Credit Card,New,Storefront,485,Bi-weekly
+T00412,2024-01-11 07:42:47.492549,549.86,P341,Furniture,Cash,New,Warehouse A,153,Monthly
+T00413,2024-04-19 10:59:40.492549,774.21,P956,Clothing,Credit Card,New,Warehouse A,168,Monthly
+T00414,2023-11-07 22:04:25.492549,369.73,P167,Furniture,Cash,Loyal,Warehouse C,218,Monthly
+T00415,2024-06-18 08:25:11.492549,429.74,P735,Grocery,Online Payment,Regular,Warehouse C,72,Weekly
+T00416,2024-03-30 18:49:46.492549,434.47,P602,Furniture,Cash,New,Warehouse B,158,Bi-weekly
+T00417,2023-11-19 16:59:10.492549,264.0,P124,Clothing,Cash,Regular,Storefront,336,Monthly
+T00418,2023-12-15 07:02:24.492549,22.89,P508,Electronics,Debit Card,New,Warehouse A,318,Monthly
+T00419,2024-03-06 17:59:24.492549,469.34,P435,Electronics,Debit Card,New,Warehouse A,360,Monthly
+T00420,2024-08-20 21:27:14.492549,968.21,P345,Furniture,Credit Card,Loyal,Warehouse B,240,Daily
+T00421,2024-02-14 11:13:54.492549,678.99,P174,Electronics,Credit Card,Loyal,Warehouse A,115,Daily
+T00422,2023-12-03 08:39:25.492549,444.64,P923,Clothing,Cash,Regular,Warehouse A,464,Bi-weekly
+T00423,2024-03-30 14:37:01.492549,872.82,P135,Grocery,Debit Card,Loyal,Storefront,260,Daily
+T00424,2023-10-27 08:57:47.492549,250.3,P313,Grocery,Credit Card,Loyal,Storefront,108,Monthly
+T00425,2024-05-25 13:42:00.492549,775.53,P504,Grocery,Online Payment,New,Warehouse B,26,Bi-weekly
+T00426,2024-03-12 21:37:36.492549,443.16,P320,Grocery,Debit Card,New,Warehouse C,242,Bi-weekly
+T00427,2023-11-28 06:25:59.492549,151.13,P129,Toys,Credit Card,Loyal,Warehouse A,129,Weekly
+T00428,2023-12-08 08:05:21.492549,801.83,P656,Toys,Debit Card,New,Warehouse B,225,Weekly
+T00429,2024-03-18 06:09:31.492549,93.95,P182,Toys,Debit Card,New,Storefront,486,Monthly
+T00430,2023-12-26 02:49:20.492549,547.16,P751,Electronics,Online Payment,Loyal,Warehouse B,428,Bi-weekly
+T00431,2023-10-12 07:10:00.492549,746.66,P138,Furniture,Debit Card,Loyal,Warehouse C,37,Weekly
+T00432,2023-12-16 13:15:09.492549,872.09,P717,Furniture,Credit Card,Regular,Warehouse C,149,Daily
+T00433,2024-06-21 21:22:50.492549,560.29,P985,Toys,Debit Card,New,Storefront,461,Bi-weekly
+T00434,2024-01-19 21:03:52.492549,687.21,P126,Toys,Cash,Regular,Warehouse A,408,Daily
+T00435,2024-07-27 23:08:07.492549,799.71,P662,Electronics,Debit Card,Loyal,Storefront,488,Weekly
+T00436,2024-05-05 20:07:26.492549,650.59,P806,Clothing,Cash,Loyal,Warehouse C,392,Daily
+T00437,2024-05-08 04:12:17.492549,702.57,P604,Electronics,Online Payment,Loyal,Storefront,38,Daily
+T00438,2024-02-02 20:59:59.492549,861.44,P440,Clothing,Debit Card,Regular,Warehouse A,177,Weekly
+T00439,2023-09-11 17:43:10.492549,319.96,P893,Furniture,Credit Card,Loyal,Warehouse B,150,Bi-weekly
+T00440,2023-11-23 12:17:23.492549,891.2,P447,Furniture,Debit Card,Loyal,Warehouse C,20,Daily
+T00441,2024-08-21 19:33:18.492549,358.33,P292,Furniture,Online Payment,Loyal,Warehouse A,487,Daily
+T00442,2024-05-04 10:06:40.492549,85.55,P407,Grocery,Credit Card,Regular,Storefront,336,Bi-weekly
+T00443,2024-07-21 15:53:09.492549,462.81,P430,Electronics,Credit Card,New,Warehouse C,440,Monthly
+T00444,2024-05-05 05:42:11.492549,518.76,P736,Furniture,Online Payment,Regular,Warehouse C,60,Monthly
+T00445,2023-12-11 02:09:48.492549,18.04,P156,Clothing,Credit Card,Regular,Warehouse C,36,Daily
+T00446,2024-03-13 10:44:55.492549,232.61,P364,Toys,Credit Card,Regular,Warehouse B,443,Bi-weekly
+T00447,2024-05-13 04:25:09.492549,802.91,P172,Grocery,Debit Card,New,Warehouse B,357,Daily
+T00448,2024-05-24 09:17:42.492549,945.71,P762,Grocery,Online Payment,Loyal,Storefront,440,Monthly
+T00449,2023-09-22 15:05:34.492549,166.62,P353,Furniture,Cash,Regular,Warehouse A,323,Weekly
+T00450,2024-06-10 01:33:55.492549,863.96,P235,Toys,Credit Card,Regular,Warehouse B,88,Weekly
+T00451,2023-12-09 18:12:32.492549,987.63,P617,Toys,Debit Card,Loyal,Warehouse A,391,Bi-weekly
+T00452,2023-12-14 18:44:50.492549,457.89,P319,Furniture,Debit Card,New,Warehouse B,403,Weekly
+T00453,2024-06-29 22:26:07.492549,672.47,P337,Furniture,Cash,Regular,Warehouse A,301,Daily
+T00454,2024-06-03 22:44:04.492549,594.17,P995,Grocery,Cash,Loyal,Warehouse B,66,Bi-weekly
+T00455,2024-02-26 15:30:10.492549,775.03,P392,Toys,Cash,New,Storefront,270,Monthly
+T00456,2024-05-30 23:27:26.492549,786.33,P420,Electronics,Cash,Regular,Warehouse B,117,Bi-weekly
+T00457,2024-05-09 11:16:44.492549,564.28,P340,Furniture,Credit Card,Regular,Warehouse B,70,Monthly
+T00458,2024-07-12 02:05:48.492549,261.56,P552,Furniture,Online Payment,Regular,Warehouse C,306,Bi-weekly
+T00459,2024-02-25 08:48:03.492549,557.39,P394,Grocery,Cash,Regular,Storefront,28,Weekly
+T00460,2023-10-12 06:35:21.492549,470.45,P198,Grocery,Debit Card,New,Warehouse A,13,Bi-weekly
+T00461,2024-01-12 23:48:09.492549,572.47,P682,Clothing,Debit Card,Regular,Warehouse A,468,Monthly
+T00462,2023-11-04 11:11:29.492549,147.6,P114,Grocery,Online Payment,New,Warehouse B,301,Daily
+T00463,2023-08-25 04:05:07.492549,931.72,P564,Grocery,Debit Card,Regular,Warehouse B,247,Weekly
+T00464,2024-02-17 12:10:21.492549,613.1,P529,Furniture,Online Payment,Regular,Warehouse B,397,Bi-weekly
+T00465,2023-12-09 17:12:29.492549,101.36,P677,Clothing,Cash,New,Warehouse B,186,Bi-weekly
+T00466,2024-06-21 12:00:17.492549,719.4,P684,Furniture,Cash,New,Storefront,222,Bi-weekly
+T00467,2024-03-07 09:31:21.492549,436.71,P290,Electronics,Debit Card,Regular,Warehouse A,314,Bi-weekly
+T00468,2024-05-01 22:23:57.492549,97.26,P275,Grocery,Debit Card,New,Warehouse C,269,Weekly
+T00469,2024-04-16 03:00:08.492549,90.72,P231,Clothing,Cash,Regular,Storefront,350,Monthly
+T00470,2024-06-24 14:13:58.492549,300.03,P365,Grocery,Cash,New,Warehouse C,341,Bi-weekly
+T00471,2023-09-26 22:38:05.492549,743.23,P102,Electronics,Credit Card,Regular,Warehouse B,248,Monthly
+T00472,2024-07-23 08:45:36.492549,435.44,P804,Clothing,Credit Card,New,Warehouse C,247,Weekly
+T00473,2024-06-20 04:40:32.492549,540.09,P680,Electronics,Online Payment,Loyal,Warehouse C,418,Weekly
+T00474,2024-06-09 16:12:22.492549,935.72,P780,Electronics,Credit Card,Regular,Storefront,73,Daily
+T00475,2024-01-19 16:54:19.492549,160.73,P331,Clothing,Online Payment,New,Storefront,478,Monthly
+T00476,2024-02-05 10:29:50.492549,827.1,P984,Electronics,Debit Card,New,Warehouse C,48,Monthly
+T00477,2024-04-19 11:22:36.492549,46.07,P803,Electronics,Credit Card,New,Warehouse C,159,Daily
+T00478,2024-08-18 23:28:19.492549,848.9,P388,Furniture,Credit Card,New,Warehouse B,349,Bi-weekly
+T00479,2023-10-01 22:39:09.492549,684.94,P365,Furniture,Cash,New,Warehouse B,496,Weekly
+T00480,2023-12-02 09:12:57.492549,777.07,P734,Toys,Cash,Regular,Warehouse A,219,Monthly
+T00481,2023-09-12 22:22:41.492549,441.64,P890,Grocery,Cash,Loyal,Storefront,406,Bi-weekly
+T00482,2024-05-14 03:20:50.492549,997.24,P211,Furniture,Online Payment,Loyal,Warehouse B,14,Daily
+T00483,2024-05-10 20:28:05.492549,252.18,P397,Furniture,Cash,New,Storefront,47,Bi-weekly
+T00484,2024-04-04 14:22:47.492549,366.02,P923,Furniture,Cash,Loyal,Warehouse B,112,Bi-weekly
+T00485,2023-09-12 07:24:57.492549,19.77,P203,Clothing,Debit Card,Regular,Warehouse B,458,Daily
+T00486,2024-01-17 14:52:38.492549,669.46,P710,Toys,Debit Card,Loyal,Warehouse B,209,Bi-weekly
+T00487,2023-12-13 06:12:56.492549,15.81,P640,Furniture,Online Payment,New,Warehouse C,333,Monthly
+T00488,2024-08-19 18:17:21.492549,340.88,P392,Toys,Cash,New,Warehouse A,226,Monthly
+T00489,2024-01-27 11:49:34.492549,117.52,P669,Toys,Credit Card,Regular,Warehouse C,135,Weekly
+T00490,2024-08-16 10:27:20.492549,386.95,P181,Furniture,Credit Card,New,Warehouse C,57,Weekly
+T00491,2023-10-30 22:11:15.492549,535.64,P806,Clothing,Debit Card,New,Warehouse A,262,Weekly
+T00492,2024-03-18 22:07:40.492549,372.72,P407,Furniture,Credit Card,Loyal,Warehouse B,121,Monthly
+T00493,2023-09-06 13:22:12.492549,61.14,P785,Toys,Debit Card,Loyal,Warehouse C,343,Monthly
+T00494,2024-08-21 09:10:24.492549,128.38,P843,Clothing,Cash,Regular,Warehouse B,175,Monthly
+T00495,2024-02-01 04:29:22.492549,681.54,P661,Electronics,Cash,Regular,Warehouse C,294,Daily
+T00496,2023-09-17 08:23:22.492549,831.91,P438,Toys,Debit Card,New,Warehouse B,270,Weekly
+T00497,2024-05-26 12:59:32.492549,142.39,P418,Clothing,Credit Card,Regular,Storefront,261,Daily
+T00498,2024-05-23 12:28:03.492549,276.93,P647,Electronics,Debit Card,Regular,Warehouse B,219,Weekly
+T00499,2023-12-30 13:02:07.492549,76.46,P740,Clothing,Debit Card,Loyal,Storefront,186,Bi-weekly
+T00500,2024-07-13 20:46:03.492549,819.64,P459,Electronics,Cash,New,Warehouse C,163,Bi-weekly
+T00501,2024-07-26 05:12:32.492549,147.59,P192,Grocery,Cash,New,Warehouse A,275,Weekly
+T00502,2023-10-09 23:22:53.492549,947.83,P199,Clothing,Cash,New,Warehouse B,158,Weekly
+T00503,2023-09-25 04:10:31.492549,876.84,P826,Clothing,Debit Card,New,Warehouse B,89,Monthly
+T00504,2024-05-03 08:51:43.492549,972.42,P820,Electronics,Debit Card,Regular,Warehouse A,221,Weekly
+T00505,2024-08-14 19:15:35.492549,179.94,P657,Clothing,Online Payment,Regular,Storefront,390,Weekly
+T00506,2023-11-10 17:56:15.492549,954.24,P348,Furniture,Online Payment,New,Warehouse C,151,Monthly
+T00507,2024-06-03 03:59:24.492549,965.54,P133,Grocery,Online Payment,Loyal,Warehouse C,330,Monthly
+T00508,2024-01-19 05:32:57.492549,650.67,P488,Clothing,Debit Card,Regular,Warehouse B,239,Daily
+T00509,2024-02-13 04:00:11.492549,105.72,P142,Clothing,Online Payment,Regular,Warehouse B,253,Daily
+T00510,2024-06-13 23:13:56.492549,249.44,P276,Electronics,Cash,Loyal,Warehouse A,63,Weekly
+T00511,2024-05-14 21:25:56.492549,96.55,P986,Clothing,Credit Card,Regular,Warehouse A,166,Daily
+T00512,2024-03-31 19:27:20.492549,810.53,P287,Electronics,Online Payment,New,Warehouse A,114,Daily
+T00513,2024-07-08 07:21:34.492549,852.64,P291,Furniture,Online Payment,Regular,Warehouse A,167,Weekly
+T00514,2024-01-10 16:24:34.492549,677.77,P680,Electronics,Cash,New,Warehouse A,38,Daily
+T00515,2024-05-02 19:38:11.492549,849.7,P128,Clothing,Debit Card,Loyal,Warehouse B,419,Bi-weekly
+T00516,2023-10-15 06:49:09.492549,776.69,P789,Clothing,Online Payment,New,Storefront,315,Daily
+T00517,2024-01-20 08:11:33.492549,562.87,P735,Furniture,Online Payment,Loyal,Warehouse C,162,Bi-weekly
+T00518,2024-04-28 06:55:55.492549,214.57,P165,Furniture,Credit Card,Loyal,Storefront,393,Weekly
+T00519,2023-11-29 13:24:27.492549,507.32,P903,Furniture,Credit Card,Regular,Warehouse A,316,Bi-weekly
+T00520,2024-08-05 13:58:49.493057,440.34,P597,Grocery,Cash,New,Storefront,467,Daily
+T00521,2023-09-10 00:27:54.493057,890.01,P520,Grocery,Debit Card,Loyal,Warehouse B,46,Daily
+T00522,2024-01-08 00:32:05.493057,620.41,P692,Electronics,Credit Card,New,Warehouse C,171,Daily
+T00523,2023-12-02 23:40:09.493057,295.36,P450,Grocery,Online Payment,Loyal,Warehouse A,95,Bi-weekly
+T00524,2024-06-04 07:51:46.493057,94.0,P852,Toys,Cash,Regular,Warehouse A,362,Weekly
+T00525,2024-01-29 06:07:27.493057,340.56,P960,Electronics,Online Payment,Regular,Warehouse C,384,Daily
+T00526,2024-06-02 16:08:05.493057,873.27,P304,Toys,Debit Card,New,Warehouse C,191,Bi-weekly
+T00527,2023-10-07 11:27:32.493057,847.45,P793,Electronics,Credit Card,New,Warehouse A,285,Monthly
+T00528,2024-03-01 10:21:24.493057,509.31,P666,Furniture,Online Payment,Regular,Warehouse B,435,Weekly
+T00529,2024-05-10 08:19:46.493057,51.23,P212,Grocery,Online Payment,New,Storefront,468,Monthly
+T00530,2024-08-20 14:56:08.493057,299.44,P746,Electronics,Online Payment,Regular,Storefront,184,Weekly
+T00531,2023-10-04 15:59:46.493057,570.87,P133,Electronics,Cash,Regular,Storefront,27,Daily
+T00532,2024-01-28 07:13:09.493057,267.29,P330,Toys,Online Payment,New,Warehouse B,454,Monthly
+T00533,2024-02-13 23:38:51.493057,126.42,P106,Electronics,Cash,Loyal,Warehouse A,131,Monthly
+T00534,2024-01-13 08:46:37.493057,999.0,P444,Grocery,Online Payment,New,Warehouse C,254,Daily
+T00535,2024-05-01 20:45:01.493057,655.68,P163,Furniture,Debit Card,Regular,Warehouse B,372,Monthly
+T00536,2024-02-19 08:19:42.493057,574.89,P882,Toys,Online Payment,Loyal,Warehouse C,301,Daily
+T00537,2024-01-16 17:03:00.493057,172.63,P825,Electronics,Credit Card,Loyal,Warehouse B,99,Monthly
+T00538,2024-05-23 21:59:52.493057,680.86,P235,Furniture,Cash,Loyal,Warehouse B,257,Bi-weekly
+T00539,2024-02-19 11:07:47.493057,354.31,P907,Grocery,Cash,Regular,Storefront,352,Bi-weekly
+T00540,2024-03-26 13:58:04.493057,409.9,P652,Furniture,Credit Card,Regular,Warehouse A,42,Weekly
+T00541,2024-07-24 08:13:32.493057,99.1,P521,Electronics,Online Payment,Regular,Warehouse C,370,Daily
+T00542,2024-01-18 10:04:22.493057,163.04,P700,Grocery,Debit Card,Loyal,Storefront,373,Bi-weekly
+T00543,2024-08-04 10:27:31.493057,255.56,P863,Grocery,Online Payment,New,Warehouse A,338,Bi-weekly
+T00544,2024-04-12 16:41:29.493057,796.25,P437,Grocery,Credit Card,New,Storefront,172,Bi-weekly
+T00545,2024-02-10 09:19:44.493057,648.92,P779,Furniture,Online Payment,New,Warehouse C,52,Daily
+T00546,2023-12-01 11:15:30.493057,500.04,P863,Grocery,Online Payment,Loyal,Warehouse C,177,Monthly
+T00547,2023-12-21 18:53:40.493057,707.4,P240,Grocery,Cash,New,Warehouse B,200,Monthly
+T00548,2024-05-19 03:30:35.493057,867.69,P659,Clothing,Debit Card,New,Warehouse C,143,Weekly
+T00549,2023-08-30 01:09:15.493057,29.52,P654,Electronics,Online Payment,New,Warehouse A,311,Monthly
+T00550,2024-07-24 01:15:31.493057,963.42,P140,Electronics,Online Payment,Loyal,Warehouse B,289,Monthly
+T00551,2024-01-13 05:10:14.493057,747.46,P502,Toys,Credit Card,Regular,Storefront,225,Daily
+T00552,2024-04-24 00:19:54.493057,82.06,P325,Clothing,Credit Card,New,Storefront,491,Daily
+T00553,2024-06-03 19:20:06.493057,208.64,P427,Clothing,Cash,Loyal,Warehouse C,203,Bi-weekly
+T00554,2024-03-20 10:46:33.493057,160.28,P932,Electronics,Cash,Loyal,Warehouse C,427,Bi-weekly
+T00555,2024-05-17 02:42:59.493057,845.7,P920,Grocery,Debit Card,Loyal,Warehouse C,162,Weekly
+T00556,2024-01-07 02:46:02.493057,55.17,P359,Toys,Credit Card,Loyal,Storefront,215,Daily
+T00557,2023-08-29 03:50:17.493057,382.14,P198,Furniture,Cash,Regular,Warehouse B,275,Weekly
+T00558,2024-03-11 07:31:32.493057,116.24,P604,Electronics,Cash,Regular,Warehouse A,302,Weekly
+T00559,2024-01-01 07:20:24.493057,458.7,P764,Clothing,Cash,New,Warehouse C,229,Monthly
+T00560,2023-10-29 20:46:02.493057,209.75,P293,Clothing,Online Payment,Regular,Warehouse A,181,Monthly
+T00561,2023-08-31 03:47:31.493057,96.74,P838,Furniture,Credit Card,New,Storefront,199,Bi-weekly
+T00562,2024-05-15 12:14:58.493057,628.96,P622,Electronics,Debit Card,New,Warehouse A,392,Bi-weekly
+T00563,2023-10-13 03:49:25.493057,867.11,P446,Furniture,Debit Card,Regular,Storefront,380,Bi-weekly
+T00564,2024-06-13 18:51:44.493057,556.74,P697,Toys,Credit Card,Loyal,Warehouse B,221,Weekly
+T00565,2024-03-24 17:29:45.493057,977.21,P735,Clothing,Cash,Regular,Warehouse B,378,Monthly
+T00566,2024-08-21 05:54:54.493057,768.12,P777,Electronics,Debit Card,New,Warehouse B,62,Bi-weekly
+T00567,2024-07-23 16:21:51.493057,721.02,P939,Furniture,Debit Card,Loyal,Storefront,417,Monthly
+T00568,2024-05-08 14:54:12.493057,974.37,P998,Grocery,Debit Card,New,Warehouse B,456,Bi-weekly
+T00569,2024-01-24 19:41:42.493057,163.66,P584,Electronics,Debit Card,Regular,Storefront,481,Bi-weekly
+T00570,2024-03-13 12:38:47.493057,741.98,P471,Clothing,Cash,Loyal,Warehouse C,339,Monthly
+T00571,2024-01-16 17:50:39.493057,438.53,P927,Electronics,Credit Card,Loyal,Storefront,458,Monthly
+T00572,2024-06-10 02:02:11.493057,375.82,P612,Grocery,Cash,New,Warehouse A,379,Weekly
+T00573,2023-09-01 14:12:26.493057,395.67,P363,Toys,Debit Card,Regular,Warehouse B,16,Daily
+T00574,2024-07-02 13:53:07.493057,367.16,P442,Grocery,Credit Card,Regular,Storefront,18,Monthly
+T00575,2023-10-20 09:47:54.493057,59.44,P876,Grocery,Online Payment,Loyal,Warehouse B,357,Monthly
+T00576,2024-01-23 13:43:24.493057,64.26,P842,Toys,Debit Card,New,Warehouse C,364,Daily
+T00577,2024-07-18 17:21:11.493057,909.83,P786,Furniture,Debit Card,New,Warehouse C,206,Monthly
+T00578,2024-04-07 07:52:46.493057,67.13,P528,Clothing,Credit Card,New,Storefront,66,Daily
+T00579,2024-07-22 13:27:33.493057,967.54,P975,Toys,Debit Card,Regular,Warehouse A,297,Monthly
+T00580,2024-07-09 09:04:40.493057,689.24,P833,Electronics,Debit Card,Loyal,Warehouse C,307,Bi-weekly
+T00581,2023-12-11 02:47:29.493057,907.87,P649,Toys,Online Payment,Loyal,Warehouse C,206,Monthly
+T00582,2024-08-16 02:38:07.493057,313.26,P309,Electronics,Credit Card,New,Warehouse A,25,Weekly
+T00583,2024-03-27 02:52:55.493057,993.84,P475,Grocery,Cash,Loyal,Storefront,263,Daily
+T00584,2024-01-13 07:46:52.493057,820.02,P541,Electronics,Online Payment,Loyal,Warehouse A,260,Weekly
+T00585,2024-07-17 18:19:43.493057,434.48,P291,Grocery,Debit Card,New,Storefront,485,Daily
+T00586,2023-09-30 16:01:29.493057,61.7,P207,Electronics,Cash,Regular,Storefront,137,Bi-weekly
+T00587,2023-09-12 23:10:50.493057,927.65,P345,Furniture,Cash,New,Warehouse A,273,Monthly
+T00588,2024-04-30 13:27:07.493057,704.24,P493,Electronics,Online Payment,Regular,Storefront,463,Weekly
+T00589,2024-03-21 01:10:22.493057,289.42,P340,Grocery,Debit Card,Regular,Warehouse C,100,Daily
+T00590,2024-01-14 08:45:20.493057,20.36,P662,Clothing,Cash,Regular,Warehouse C,213,Bi-weekly
+T00591,2024-06-01 14:07:58.493057,484.8,P870,Furniture,Credit Card,Regular,Warehouse C,98,Weekly
+T00592,2024-07-12 04:32:21.493057,983.05,P221,Grocery,Online Payment,Loyal,Storefront,396,Daily
+T00593,2024-08-04 17:59:07.493057,921.19,P379,Grocery,Debit Card,Regular,Storefront,296,Bi-weekly
+T00594,2024-07-01 01:24:47.493057,87.63,P514,Grocery,Cash,Loyal,Warehouse C,256,Bi-weekly
+T00595,2023-10-21 20:26:10.493057,574.36,P170,Electronics,Online Payment,New,Warehouse B,11,Monthly
+T00596,2023-08-28 13:52:36.493057,67.73,P375,Grocery,Cash,Regular,Warehouse B,386,Daily
+T00597,2024-01-17 23:40:58.493057,362.26,P577,Clothing,Debit Card,New,Storefront,191,Bi-weekly
+T00598,2024-05-02 23:19:41.493057,532.61,P212,Furniture,Online Payment,Loyal,Warehouse C,176,Monthly
+T00599,2024-03-01 16:43:33.493057,916.18,P238,Clothing,Cash,Loyal,Warehouse C,486,Monthly
+T00600,2024-03-30 00:32:41.493057,944.23,P858,Furniture,Debit Card,Regular,Storefront,175,Weekly
+T00601,2023-12-03 22:48:48.493057,957.71,P152,Electronics,Debit Card,Loyal,Warehouse B,364,Daily
+T00602,2023-12-24 16:44:13.493057,970.95,P768,Electronics,Online Payment,Regular,Warehouse A,276,Bi-weekly
+T00603,2024-03-03 14:33:57.493057,933.5,P609,Toys,Credit Card,Regular,Warehouse A,168,Monthly
+T00604,2023-10-05 15:49:26.493057,483.73,P720,Electronics,Cash,Regular,Warehouse A,349,Monthly
+T00605,2023-09-01 09:39:41.493057,576.39,P772,Grocery,Credit Card,New,Warehouse A,103,Weekly
+T00606,2024-02-24 18:30:03.493057,88.65,P897,Furniture,Cash,New,Storefront,144,Weekly
+T00607,2024-06-21 15:22:33.493057,449.32,P584,Electronics,Credit Card,New,Warehouse C,369,Bi-weekly
+T00608,2023-12-20 12:13:25.493057,65.3,P731,Electronics,Online Payment,Loyal,Warehouse C,25,Monthly
+T00609,2024-06-10 02:20:51.493057,508.91,P806,Electronics,Cash,New,Storefront,187,Weekly
+T00610,2024-02-10 19:39:51.493057,121.25,P995,Furniture,Debit Card,New,Warehouse C,97,Daily
+T00611,2024-05-29 17:01:29.493057,505.71,P476,Clothing,Cash,New,Warehouse C,177,Monthly
+T00612,2024-07-09 20:25:28.493057,106.81,P589,Grocery,Cash,Loyal,Warehouse C,421,Daily
+T00613,2023-10-18 17:29:18.493057,116.55,P994,Toys,Credit Card,Regular,Warehouse A,445,Bi-weekly
+T00614,2024-08-15 01:09:08.493057,987.69,P401,Electronics,Online Payment,New,Warehouse B,193,Weekly
+T00615,2024-05-26 20:02:41.493057,69.5,P552,Electronics,Cash,New,Storefront,224,Bi-weekly
+T00616,2024-01-19 20:00:20.493057,723.8,P579,Furniture,Debit Card,New,Warehouse B,371,Bi-weekly
+T00617,2024-06-27 17:58:11.493057,35.2,P891,Electronics,Online Payment,New,Warehouse A,409,Monthly
+T00618,2024-04-13 10:43:54.493057,146.92,P231,Electronics,Debit Card,New,Warehouse C,48,Daily
+T00619,2024-08-05 16:26:04.493057,489.79,P123,Toys,Credit Card,Loyal,Warehouse B,421,Weekly
+T00620,2024-06-26 21:49:10.493057,986.54,P601,Furniture,Online Payment,New,Storefront,181,Daily
+T00621,2023-11-29 11:02:55.493057,760.4,P459,Furniture,Online Payment,New,Warehouse A,126,Monthly
+T00622,2024-01-25 23:23:26.493057,595.75,P466,Electronics,Online Payment,New,Warehouse C,11,Bi-weekly
+T00623,2023-12-31 16:24:57.493057,36.76,P527,Furniture,Credit Card,Regular,Warehouse A,450,Monthly
+T00624,2023-09-04 22:14:44.493057,455.56,P251,Grocery,Cash,Loyal,Warehouse C,451,Bi-weekly
+T00625,2023-12-04 19:48:55.493057,545.48,P421,Electronics,Debit Card,New,Warehouse C,121,Daily
+T00626,2024-08-20 21:38:34.493057,180.57,P978,Toys,Debit Card,Regular,Warehouse C,43,Weekly
+T00627,2023-09-06 01:43:13.493057,159.9,P766,Clothing,Online Payment,Regular,Warehouse C,143,Daily
+T00628,2023-11-23 02:56:33.493057,942.28,P631,Toys,Online Payment,Loyal,Warehouse C,94,Bi-weekly
+T00629,2024-03-21 09:29:00.493057,102.38,P967,Clothing,Cash,Loyal,Warehouse A,365,Bi-weekly
+T00630,2024-03-04 20:57:09.493057,314.06,P418,Toys,Debit Card,New,Warehouse B,38,Daily
+T00631,2024-01-08 19:35:22.493057,338.81,P193,Grocery,Credit Card,Regular,Warehouse C,71,Bi-weekly
+T00632,2023-12-29 03:16:06.493057,534.62,P734,Clothing,Debit Card,New,Warehouse A,249,Bi-weekly
+T00633,2024-05-29 02:54:17.493057,358.6,P120,Electronics,Cash,Loyal,Warehouse B,154,Weekly
+T00634,2023-12-10 07:22:54.493057,64.54,P603,Toys,Online Payment,Regular,Warehouse B,180,Weekly
+T00635,2024-08-04 08:44:03.493057,222.88,P865,Grocery,Cash,Loyal,Warehouse A,247,Weekly
+T00636,2023-09-26 11:48:01.493057,300.62,P523,Electronics,Cash,Regular,Storefront,367,Monthly
+T00637,2023-12-23 04:28:54.493057,281.01,P219,Furniture,Cash,New,Warehouse B,94,Bi-weekly
+T00638,2023-09-30 13:34:46.493057,954.88,P221,Electronics,Credit Card,Loyal,Warehouse A,191,Monthly
+T00639,2023-11-21 02:34:49.493057,120.47,P980,Electronics,Credit Card,New,Warehouse B,424,Weekly
+T00640,2024-03-08 19:38:17.493057,84.79,P604,Furniture,Cash,New,Warehouse A,100,Weekly
+T00641,2024-08-07 17:33:22.493057,485.83,P675,Toys,Online Payment,New,Storefront,302,Bi-weekly
+T00642,2024-06-07 13:17:24.493057,850.18,P215,Toys,Online Payment,Regular,Storefront,387,Bi-weekly
+T00643,2024-07-09 12:59:28.493057,357.87,P335,Grocery,Cash,New,Warehouse B,367,Daily
+T00644,2024-02-04 01:36:50.493057,948.05,P419,Grocery,Online Payment,Loyal,Warehouse B,38,Daily
+T00645,2024-01-18 09:39:18.493057,739.78,P846,Furniture,Online Payment,New,Storefront,262,Weekly
+T00646,2024-08-01 14:21:07.493057,39.17,P108,Furniture,Cash,Loyal,Storefront,412,Weekly
+T00647,2024-07-13 13:22:13.493057,695.07,P915,Electronics,Debit Card,New,Warehouse C,366,Monthly
+T00648,2024-04-21 15:17:27.493057,118.88,P372,Toys,Online Payment,New,Warehouse C,33,Monthly
+T00649,2023-09-07 10:16:50.493057,642.19,P355,Clothing,Cash,New,Storefront,166,Daily
+T00650,2024-05-21 10:23:08.493057,799.77,P370,Clothing,Debit Card,New,Warehouse C,387,Bi-weekly
+T00651,2023-08-30 08:33:49.493057,910.6,P813,Furniture,Cash,Regular,Storefront,324,Bi-weekly
+T00652,2024-07-20 18:30:22.493057,358.08,P917,Toys,Online Payment,New,Storefront,365,Monthly
+T00653,2024-02-03 17:20:31.493057,715.75,P200,Electronics,Credit Card,New,Warehouse A,428,Monthly
+T00654,2024-01-23 06:48:48.493057,542.09,P229,Electronics,Online Payment,Loyal,Warehouse A,31,Monthly
+T00655,2024-03-03 12:50:19.493057,44.08,P224,Furniture,Online Payment,Loyal,Warehouse B,385,Bi-weekly
+T00656,2023-10-08 19:23:55.493057,135.32,P109,Grocery,Online Payment,Loyal,Storefront,428,Daily
+T00657,2023-11-24 16:36:45.493057,171.92,P552,Electronics,Cash,New,Warehouse A,452,Monthly
+T00658,2023-10-07 00:31:33.493057,867.82,P442,Furniture,Credit Card,Regular,Storefront,411,Bi-weekly
+T00659,2024-05-19 02:15:56.493057,899.03,P944,Clothing,Debit Card,Regular,Warehouse A,64,Weekly
+T00660,2024-03-03 12:56:07.493057,769.95,P816,Electronics,Online Payment,Regular,Warehouse C,206,Monthly
+T00661,2024-05-29 03:21:31.493057,335.95,P338,Toys,Debit Card,Loyal,Storefront,79,Bi-weekly
+T00662,2024-01-21 08:21:17.493057,803.6,P357,Clothing,Debit Card,Regular,Warehouse B,370,Bi-weekly
+T00663,2024-02-25 08:13:34.493057,83.28,P430,Electronics,Online Payment,New,Warehouse C,16,Weekly
+T00664,2024-08-16 05:32:55.493057,521.83,P505,Clothing,Cash,Loyal,Warehouse B,141,Weekly
+T00665,2023-08-27 12:37:10.493057,280.96,P771,Toys,Cash,Loyal,Storefront,490,Bi-weekly
+T00666,2023-09-15 18:57:42.493057,954.0,P277,Toys,Cash,Loyal,Storefront,379,Weekly
+T00667,2023-11-01 22:02:20.493057,197.08,P100,Clothing,Debit Card,New,Warehouse B,103,Daily
+T00668,2024-03-31 01:52:26.493057,680.0,P127,Electronics,Online Payment,Loyal,Storefront,454,Weekly
+T00669,2024-05-31 09:10:13.493057,293.11,P105,Toys,Cash,Loyal,Warehouse B,192,Daily
+T00670,2024-06-02 06:12:09.493057,298.35,P647,Electronics,Debit Card,Regular,Warehouse C,11,Daily
+T00671,2024-04-07 14:54:25.493057,820.61,P713,Toys,Cash,Regular,Storefront,78,Bi-weekly
+T00672,2023-08-31 10:17:31.493057,455.71,P158,Furniture,Debit Card,Regular,Warehouse C,281,Bi-weekly
+T00673,2024-03-02 04:12:39.493057,572.37,P819,Grocery,Credit Card,Loyal,Warehouse A,497,Monthly
+T00674,2023-12-31 18:36:10.493057,521.06,P938,Toys,Credit Card,Loyal,Warehouse B,41,Daily
+T00675,2024-02-17 08:43:12.493057,975.03,P317,Furniture,Credit Card,New,Warehouse C,332,Daily
+T00676,2024-02-17 08:33:58.493057,563.76,P443,Toys,Debit Card,Loyal,Warehouse A,232,Bi-weekly
+T00677,2024-08-13 17:14:50.493057,16.89,P924,Clothing,Credit Card,New,Warehouse C,387,Daily
+T00678,2024-08-05 09:27:55.493057,798.1,P470,Toys,Cash,Loyal,Warehouse C,194,Weekly
+T00679,2023-09-11 19:24:03.493057,431.76,P257,Grocery,Cash,New,Warehouse C,86,Monthly
+T00680,2024-02-05 15:45:07.493057,682.01,P807,Electronics,Cash,Loyal,Warehouse C,482,Bi-weekly
+T00681,2023-12-04 13:06:11.493057,53.73,P536,Grocery,Debit Card,Loyal,Warehouse C,294,Monthly
+T00682,2024-04-11 08:07:02.493057,754.42,P119,Toys,Online Payment,New,Warehouse C,480,Monthly
+T00683,2023-11-03 16:04:17.493057,235.26,P232,Toys,Online Payment,Loyal,Storefront,196,Monthly
+T00684,2024-08-09 17:02:34.493057,832.03,P919,Toys,Debit Card,New,Warehouse B,47,Monthly
+T00685,2024-03-03 22:51:43.493057,657.77,P458,Clothing,Debit Card,Regular,Warehouse A,237,Weekly
+T00686,2023-11-16 20:00:03.493057,877.12,P678,Toys,Online Payment,Regular,Warehouse A,355,Bi-weekly
+T00687,2023-08-26 03:48:00.493057,273.03,P924,Grocery,Cash,New,Warehouse C,246,Weekly
+T00688,2023-10-24 09:55:04.493057,630.54,P711,Toys,Credit Card,Regular,Warehouse C,306,Weekly
+T00689,2024-02-21 11:48:38.493057,605.78,P793,Grocery,Online Payment,Regular,Storefront,29,Weekly
+T00690,2024-07-02 00:47:25.493057,992.33,P607,Toys,Credit Card,Regular,Warehouse B,55,Monthly
+T00691,2024-08-19 09:06:01.493057,344.3,P704,Electronics,Credit Card,Regular,Warehouse A,379,Weekly
+T00692,2024-03-01 02:19:37.493057,705.29,P862,Grocery,Cash,New,Warehouse B,214,Monthly
+T00693,2023-12-22 15:25:18.493057,433.39,P615,Toys,Cash,Loyal,Warehouse A,429,Weekly
+T00694,2024-02-22 02:31:50.493057,674.04,P429,Electronics,Debit Card,Regular,Warehouse C,306,Daily
+T00695,2023-09-25 02:55:40.493057,57.49,P621,Electronics,Credit Card,New,Warehouse B,498,Monthly
+T00696,2024-01-29 15:47:30.493057,751.95,P625,Grocery,Credit Card,New,Storefront,326,Bi-weekly
+T00697,2024-06-29 08:25:12.493057,525.77,P596,Toys,Online Payment,Regular,Warehouse B,45,Bi-weekly
+T00698,2024-01-14 20:29:18.493057,978.93,P147,Toys,Credit Card,Regular,Warehouse A,414,Daily
+T00699,2024-01-22 22:41:31.493057,145.46,P190,Furniture,Credit Card,New,Warehouse B,289,Monthly
+T00700,2024-02-16 07:13:01.493057,833.01,P787,Electronics,Online Payment,New,Warehouse C,249,Bi-weekly
+T00701,2024-01-25 21:49:24.493057,677.09,P885,Clothing,Cash,Loyal,Storefront,33,Monthly
+T00702,2023-11-24 06:29:34.493057,916.35,P416,Toys,Online Payment,Regular,Warehouse A,128,Bi-weekly
+T00703,2024-02-24 09:50:07.493057,124.96,P212,Toys,Online Payment,New,Warehouse B,405,Monthly
+T00704,2024-04-15 17:48:22.493057,504.76,P859,Electronics,Cash,New,Warehouse B,68,Weekly
+T00705,2024-01-16 15:44:05.493057,999.62,P881,Furniture,Online Payment,Loyal,Storefront,175,Bi-weekly
+T00706,2023-09-11 12:14:17.493057,407.46,P489,Furniture,Cash,Regular,Warehouse C,253,Bi-weekly
+T00707,2024-08-14 16:07:23.493057,521.4,P972,Clothing,Credit Card,Loyal,Storefront,271,Daily
+T00708,2024-03-02 01:20:37.493057,342.61,P286,Grocery,Cash,Regular,Warehouse C,165,Weekly
+T00709,2024-05-25 17:44:03.493057,272.22,P730,Furniture,Online Payment,New,Storefront,289,Monthly
+T00710,2023-08-23 05:50:34.493057,251.77,P785,Clothing,Cash,New,Warehouse C,109,Monthly
+T00711,2024-02-03 01:01:08.493057,412.57,P564,Furniture,Credit Card,Regular,Warehouse A,96,Weekly
+T00712,2024-07-06 15:54:11.493057,97.26,P865,Toys,Cash,Regular,Storefront,85,Daily
+T00713,2024-03-22 12:36:26.493057,387.83,P445,Electronics,Cash,Regular,Warehouse B,427,Bi-weekly
+T00714,2024-08-16 03:24:22.493057,64.08,P805,Electronics,Online Payment,Loyal,Warehouse A,69,Monthly
+T00715,2023-11-15 15:21:01.493057,712.88,P727,Electronics,Credit Card,New,Storefront,260,Monthly
+T00716,2024-01-07 02:12:27.493057,630.31,P528,Grocery,Debit Card,Regular,Warehouse B,23,Monthly
+T00717,2024-03-21 11:18:04.493057,622.94,P243,Furniture,Debit Card,Regular,Storefront,177,Bi-weekly
+T00718,2024-03-25 13:34:06.493057,680.34,P221,Electronics,Debit Card,Loyal,Storefront,438,Monthly
+T00719,2024-08-17 09:28:18.493057,801.25,P772,Electronics,Credit Card,Loyal,Warehouse A,112,Bi-weekly
+T00720,2024-01-08 11:07:04.493057,219.62,P677,Clothing,Cash,Loyal,Warehouse B,121,Monthly
+T00721,2023-12-29 14:15:04.493057,939.86,P514,Grocery,Online Payment,Loyal,Warehouse B,273,Monthly
+T00722,2023-09-15 12:49:36.493057,270.25,P585,Electronics,Debit Card,Regular,Warehouse A,452,Bi-weekly
+T00723,2024-05-29 07:04:31.493057,274.94,P990,Grocery,Online Payment,Loyal,Warehouse A,13,Monthly
+T00724,2024-02-16 14:14:26.493057,928.92,P908,Electronics,Credit Card,Regular,Warehouse C,151,Daily
+T00725,2023-11-24 10:47:57.493057,501.08,P541,Grocery,Cash,New,Warehouse A,342,Bi-weekly
+T00726,2023-09-05 10:55:16.493057,978.41,P784,Clothing,Cash,Regular,Warehouse A,484,Daily
+T00727,2024-01-31 05:28:45.493057,751.53,P115,Toys,Cash,New,Warehouse A,328,Bi-weekly
+T00728,2024-05-15 16:22:43.493057,151.01,P285,Electronics,Debit Card,Regular,Warehouse A,150,Daily
+T00729,2023-11-23 15:24:44.493057,229.45,P710,Electronics,Credit Card,Loyal,Warehouse B,6,Monthly
+T00730,2024-03-06 15:28:07.493057,528.05,P161,Grocery,Cash,Regular,Warehouse B,141,Weekly
+T00731,2023-09-26 06:03:40.493057,649.97,P839,Electronics,Online Payment,Loyal,Warehouse C,39,Bi-weekly
+T00732,2024-02-03 21:11:17.493057,841.51,P583,Furniture,Debit Card,Loyal,Warehouse C,313,Weekly
+T00733,2024-04-16 16:33:31.493057,815.29,P166,Furniture,Credit Card,New,Warehouse B,337,Weekly
+T00734,2023-09-06 08:21:25.493057,19.26,P580,Toys,Online Payment,New,Storefront,110,Weekly
+T00735,2024-08-07 14:45:51.493057,12.23,P507,Clothing,Online Payment,Loyal,Warehouse B,378,Bi-weekly
+T00736,2023-11-23 07:53:46.493057,625.48,P482,Clothing,Online Payment,Loyal,Storefront,155,Monthly
+T00737,2023-09-17 12:47:58.493057,526.63,P467,Clothing,Debit Card,Regular,Warehouse C,59,Bi-weekly
+T00738,2024-05-24 05:22:35.493057,544.39,P182,Clothing,Debit Card,Regular,Storefront,81,Monthly
+T00739,2024-06-13 21:20:35.493057,315.34,P918,Grocery,Debit Card,Loyal,Storefront,253,Daily
+T00740,2023-11-27 23:25:31.493057,139.45,P944,Furniture,Online Payment,Loyal,Storefront,498,Monthly
+T00741,2024-05-05 15:32:22.493057,593.57,P904,Toys,Debit Card,Regular,Warehouse A,480,Weekly
+T00742,2024-05-07 06:46:00.493057,777.7,P766,Furniture,Debit Card,Loyal,Warehouse A,433,Bi-weekly
+T00743,2024-02-08 13:48:52.493057,642.29,P487,Grocery,Debit Card,Loyal,Storefront,196,Monthly
+T00744,2023-10-03 02:49:05.493057,168.58,P112,Furniture,Online Payment,Regular,Warehouse A,306,Bi-weekly
+T00745,2023-09-20 12:27:02.493057,518.13,P112,Electronics,Credit Card,Regular,Warehouse A,125,Bi-weekly
+T00746,2024-01-26 20:56:30.493057,154.04,P297,Toys,Debit Card,New,Warehouse B,290,Weekly
+T00747,2024-03-06 15:07:40.493057,903.84,P431,Clothing,Credit Card,Loyal,Warehouse C,72,Weekly
+T00748,2023-10-17 02:09:04.493057,788.2,P511,Clothing,Cash,Regular,Warehouse B,123,Daily
+T00749,2023-09-30 13:31:21.493057,493.26,P852,Toys,Cash,New,Warehouse A,308,Weekly
+T00750,2023-12-30 19:31:48.493057,411.15,P351,Furniture,Cash,New,Storefront,98,Daily
+T00751,2024-05-05 06:11:57.493057,449.66,P324,Grocery,Debit Card,Loyal,Warehouse B,54,Monthly
+T00752,2024-04-25 04:50:45.493057,225.82,P974,Toys,Credit Card,Regular,Warehouse C,475,Bi-weekly
+T00753,2024-06-28 15:15:44.493057,642.89,P279,Electronics,Cash,Regular,Warehouse C,14,Daily
+T00754,2023-09-28 13:42:58.493057,859.57,P865,Grocery,Cash,New,Storefront,55,Daily
+T00755,2024-03-01 07:17:23.493057,515.23,P806,Electronics,Debit Card,Loyal,Warehouse C,225,Weekly
+T00756,2023-12-07 02:00:29.493057,717.44,P508,Furniture,Debit Card,New,Warehouse C,222,Weekly
+T00757,2024-03-15 13:21:04.493057,350.61,P215,Toys,Debit Card,New,Warehouse A,37,Bi-weekly
+T00758,2024-02-10 16:19:19.493057,430.4,P957,Toys,Debit Card,New,Warehouse A,270,Monthly
+T00759,2024-05-07 21:56:07.493057,726.06,P461,Toys,Online Payment,New,Storefront,82,Bi-weekly
+T00760,2024-08-08 15:25:19.493057,79.4,P752,Grocery,Cash,New,Warehouse B,194,Monthly
+T00761,2024-07-01 00:40:13.493057,473.4,P442,Toys,Credit Card,Loyal,Warehouse C,342,Weekly
+T00762,2024-05-22 07:56:17.493057,969.19,P723,Clothing,Credit Card,Regular,Storefront,5,Bi-weekly
+T00763,2024-01-14 02:11:34.493057,139.0,P381,Grocery,Credit Card,New,Warehouse A,369,Daily
+T00764,2023-10-05 02:01:38.493057,786.88,P178,Electronics,Online Payment,Regular,Warehouse C,322,Bi-weekly
+T00765,2024-01-12 09:28:01.493057,962.31,P538,Clothing,Cash,Loyal,Warehouse C,88,Monthly
+T00766,2023-10-21 21:57:27.493057,762.58,P481,Toys,Cash,Regular,Warehouse B,86,Monthly
+T00767,2024-08-20 06:14:05.493057,340.48,P694,Toys,Debit Card,Regular,Warehouse B,297,Daily
+T00768,2024-06-25 07:56:11.493057,159.63,P363,Grocery,Credit Card,Loyal,Warehouse A,364,Weekly
+T00769,2023-08-28 13:11:41.493057,142.07,P292,Furniture,Cash,Loyal,Warehouse C,224,Daily
+T00770,2024-04-20 12:25:50.493057,637.1,P367,Furniture,Credit Card,Loyal,Warehouse A,374,Daily
+T00771,2024-02-29 10:15:28.493057,278.2,P333,Electronics,Online Payment,Regular,Storefront,112,Weekly
+T00772,2024-08-08 03:55:21.493057,297.11,P937,Electronics,Debit Card,Regular,Warehouse A,95,Monthly
+T00773,2024-04-01 07:15:57.493057,523.17,P569,Toys,Online Payment,Loyal,Warehouse A,383,Weekly
+T00774,2024-01-17 19:42:49.493057,822.68,P292,Toys,Debit Card,Regular,Warehouse C,104,Bi-weekly
+T00775,2024-05-07 13:54:08.493057,73.63,P107,Electronics,Online Payment,Loyal,Warehouse C,330,Monthly
+T00776,2024-08-09 19:14:33.493057,999.67,P931,Clothing,Debit Card,Loyal,Storefront,432,Bi-weekly
+T00777,2024-02-12 03:53:09.493057,593.32,P532,Clothing,Online Payment,New,Warehouse B,85,Bi-weekly
+T00778,2024-02-28 07:19:06.493057,285.17,P182,Electronics,Debit Card,New,Warehouse B,274,Monthly
+T00779,2024-05-25 06:11:05.493057,537.16,P575,Electronics,Online Payment,New,Warehouse C,423,Monthly
+T00780,2024-07-11 15:50:18.493057,902.1,P305,Grocery,Credit Card,Regular,Storefront,164,Weekly
+T00781,2024-06-13 20:20:39.493057,892.66,P781,Electronics,Cash,Loyal,Warehouse B,14,Monthly
+T00782,2024-02-29 02:29:26.493057,330.62,P133,Grocery,Debit Card,Loyal,Warehouse A,361,Monthly
+T00783,2024-06-14 18:22:09.493057,803.59,P822,Furniture,Cash,New,Storefront,326,Weekly
+T00784,2024-08-05 09:22:26.493057,94.78,P104,Grocery,Credit Card,New,Warehouse C,432,Monthly
+T00785,2023-08-26 08:40:45.493057,333.93,P792,Toys,Debit Card,Loyal,Warehouse A,118,Weekly
+T00786,2024-06-03 01:27:46.493057,932.79,P376,Furniture,Credit Card,Regular,Storefront,10,Monthly
+T00787,2023-10-22 09:20:49.493057,595.7,P285,Clothing,Credit Card,Loyal,Warehouse A,287,Weekly
+T00788,2024-02-01 19:00:29.493057,851.31,P202,Grocery,Debit Card,Loyal,Warehouse C,158,Daily
+T00789,2023-12-22 05:56:42.493057,985.32,P809,Furniture,Cash,Loyal,Warehouse B,90,Weekly
+T00790,2023-11-02 02:46:21.493057,727.56,P804,Clothing,Online Payment,Regular,Warehouse C,431,Daily
+T00791,2024-02-09 03:09:47.493057,188.44,P346,Grocery,Debit Card,Regular,Storefront,436,Monthly
+T00792,2023-11-17 22:05:14.493057,694.06,P384,Electronics,Credit Card,Regular,Warehouse C,219,Monthly
+T00793,2024-05-27 06:01:03.493057,22.57,P829,Grocery,Cash,New,Warehouse A,244,Weekly
+T00794,2024-07-09 04:50:10.493057,427.24,P195,Clothing,Credit Card,Regular,Warehouse B,174,Monthly
+T00795,2023-09-09 02:36:00.493057,72.1,P174,Clothing,Cash,Loyal,Warehouse B,254,Bi-weekly
+T00796,2023-10-09 18:38:10.493057,949.9,P502,Furniture,Credit Card,New,Storefront,456,Bi-weekly
+T00797,2024-08-11 18:30:42.493057,495.83,P927,Grocery,Credit Card,New,Warehouse B,418,Monthly
+T00798,2024-07-02 15:00:03.493057,627.66,P531,Toys,Credit Card,New,Warehouse C,127,Monthly
+T00799,2023-10-29 04:13:49.493057,844.29,P426,Furniture,Cash,Regular,Warehouse B,37,Weekly
+T00800,2023-12-08 00:11:26.493057,476.25,P977,Electronics,Cash,Regular,Warehouse B,476,Weekly
+T00801,2023-09-25 03:19:56.493057,396.56,P326,Grocery,Cash,Loyal,Warehouse A,229,Weekly
+T00802,2024-04-21 05:29:36.493057,774.84,P363,Clothing,Cash,Regular,Warehouse A,38,Weekly
+T00803,2024-06-26 15:27:26.493057,742.0,P413,Clothing,Credit Card,Regular,Warehouse C,55,Daily
+T00804,2023-09-02 07:52:51.493057,940.58,P897,Grocery,Debit Card,Regular,Warehouse B,212,Weekly
+T00805,2024-05-20 23:42:35.493057,738.85,P206,Furniture,Online Payment,New,Warehouse A,49,Weekly
+T00806,2023-08-30 11:16:45.493057,295.69,P959,Electronics,Online Payment,Regular,Warehouse C,435,Daily
+T00807,2023-09-07 19:44:36.493057,631.17,P779,Furniture,Credit Card,New,Warehouse A,262,Daily
+T00808,2023-09-11 20:16:31.493057,16.15,P190,Clothing,Debit Card,New,Warehouse C,45,Monthly
+T00809,2024-06-06 15:06:36.493057,23.27,P333,Grocery,Debit Card,New,Storefront,58,Bi-weekly
+T00810,2024-01-10 12:14:35.493057,776.4,P236,Electronics,Debit Card,Loyal,Storefront,488,Monthly
+T00811,2024-06-23 12:37:14.493057,980.13,P591,Grocery,Cash,Loyal,Warehouse C,160,Weekly
+T00812,2023-11-11 21:48:30.493057,42.3,P232,Furniture,Debit Card,Regular,Storefront,386,Bi-weekly
+T00813,2024-05-08 18:09:33.493057,204.48,P483,Toys,Cash,Loyal,Warehouse A,298,Daily
+T00814,2023-10-19 02:51:13.493057,586.68,P304,Grocery,Debit Card,Loyal,Warehouse B,155,Weekly
+T00815,2024-01-20 01:22:09.493057,600.86,P960,Grocery,Credit Card,Regular,Warehouse B,295,Daily
+T00816,2023-12-01 06:32:22.493057,494.81,P800,Grocery,Online Payment,Loyal,Warehouse A,38,Monthly
+T00817,2024-03-03 11:52:02.493057,565.2,P844,Clothing,Cash,New,Warehouse B,340,Weekly
+T00818,2024-01-17 16:56:43.493057,460.08,P730,Furniture,Debit Card,Loyal,Warehouse C,357,Bi-weekly
+T00819,2023-08-23 16:58:45.493057,743.1,P995,Grocery,Cash,Loyal,Warehouse B,259,Monthly
+T00820,2024-07-15 05:36:50.493057,729.66,P730,Electronics,Online Payment,New,Warehouse B,228,Weekly
+T00821,2024-07-21 22:10:25.493057,622.83,P915,Toys,Online Payment,Regular,Storefront,412,Weekly
+T00822,2024-03-25 18:08:19.493057,88.07,P890,Furniture,Online Payment,New,Storefront,325,Monthly
+T00823,2023-11-28 21:49:59.493057,197.08,P291,Toys,Cash,New,Warehouse A,307,Weekly
+T00824,2024-01-08 23:15:56.493057,511.19,P449,Clothing,Credit Card,Loyal,Warehouse A,426,Weekly
+T00825,2024-02-10 04:40:27.493057,998.67,P872,Furniture,Debit Card,New,Warehouse C,381,Daily
+T00826,2024-07-24 21:07:27.493057,892.87,P543,Furniture,Credit Card,New,Warehouse B,263,Bi-weekly
+T00827,2024-01-22 10:08:04.493057,402.3,P740,Electronics,Debit Card,New,Warehouse C,413,Weekly
+T00828,2024-07-24 02:34:56.493057,558.18,P508,Electronics,Debit Card,New,Warehouse C,295,Monthly
+T00829,2024-06-14 20:41:48.493057,865.78,P926,Electronics,Credit Card,Regular,Storefront,232,Weekly
+T00830,2023-10-14 22:40:52.493057,310.9,P217,Furniture,Online Payment,Regular,Warehouse B,426,Daily
+T00831,2024-06-13 13:05:37.493057,68.15,P986,Grocery,Credit Card,New,Warehouse A,185,Daily
+T00832,2024-04-09 12:00:12.493057,877.19,P343,Clothing,Debit Card,Loyal,Warehouse A,283,Bi-weekly
+T00833,2023-09-01 08:45:24.493057,68.34,P100,Furniture,Debit Card,Regular,Warehouse A,55,Daily
+T00834,2024-01-06 13:39:11.493057,394.28,P766,Furniture,Online Payment,Loyal,Storefront,220,Bi-weekly
+T00835,2024-06-25 06:50:19.493057,179.13,P506,Grocery,Online Payment,Regular,Warehouse B,55,Bi-weekly
+T00836,2024-06-18 17:22:20.493057,124.58,P979,Clothing,Debit Card,Loyal,Storefront,78,Monthly
+T00837,2023-09-15 07:49:35.493057,406.86,P748,Furniture,Online Payment,New,Storefront,157,Daily
+T00838,2024-06-14 19:23:13.493057,400.0,P501,Electronics,Cash,New,Warehouse B,27,Bi-weekly
+T00839,2024-04-29 12:43:59.493057,492.49,P127,Electronics,Debit Card,Regular,Warehouse A,218,Monthly
+T00840,2024-02-29 12:10:37.493057,753.9,P622,Electronics,Debit Card,New,Warehouse A,434,Bi-weekly
+T00841,2023-12-14 14:20:39.493057,114.48,P683,Clothing,Debit Card,New,Warehouse B,246,Weekly
+T00842,2023-12-24 20:28:07.493057,879.73,P427,Grocery,Cash,Regular,Storefront,325,Bi-weekly
+T00843,2024-06-08 11:34:17.493057,244.97,P297,Electronics,Credit Card,Loyal,Storefront,163,Monthly
+T00844,2024-02-16 12:57:44.493057,398.85,P688,Furniture,Debit Card,New,Warehouse B,449,Weekly
+T00845,2024-07-17 06:08:29.493057,223.75,P469,Grocery,Cash,Regular,Warehouse A,452,Weekly
+T00846,2023-12-23 10:31:11.493057,624.95,P582,Grocery,Cash,Loyal,Storefront,330,Monthly
+T00847,2024-04-14 16:47:36.493057,142.42,P632,Clothing,Debit Card,Loyal,Warehouse C,191,Weekly
+T00848,2024-01-01 23:07:08.493057,341.78,P712,Electronics,Credit Card,New,Storefront,127,Daily
+T00849,2024-04-13 09:33:50.493057,492.73,P709,Grocery,Credit Card,New,Warehouse C,2,Monthly
+T00850,2024-01-06 18:15:22.493057,599.79,P637,Electronics,Online Payment,Loyal,Storefront,37,Daily
+T00851,2024-02-17 17:19:25.493057,998.4,P506,Electronics,Credit Card,New,Warehouse C,131,Weekly
+T00852,2023-12-02 00:01:41.493057,228.74,P749,Grocery,Credit Card,New,Storefront,392,Daily
+T00853,2023-10-30 06:36:31.493057,459.95,P261,Grocery,Credit Card,Loyal,Warehouse A,350,Bi-weekly
+T00854,2024-04-28 06:58:29.493057,637.81,P705,Toys,Debit Card,Loyal,Warehouse A,46,Bi-weekly
+T00855,2023-11-16 15:38:15.493057,474.31,P558,Furniture,Debit Card,New,Warehouse C,37,Bi-weekly
+T00856,2024-08-01 13:04:42.493057,363.45,P307,Clothing,Debit Card,New,Warehouse B,390,Monthly
+T00857,2023-10-20 09:38:33.493057,340.38,P615,Clothing,Online Payment,Regular,Warehouse A,112,Bi-weekly
+T00858,2024-06-04 08:04:09.493057,748.32,P547,Grocery,Online Payment,Loyal,Storefront,235,Weekly
+T00859,2023-09-23 07:51:06.493057,806.28,P147,Furniture,Debit Card,New,Storefront,424,Daily
+T00860,2023-11-06 19:42:28.493057,581.01,P194,Grocery,Cash,New,Warehouse A,489,Weekly
+T00861,2024-02-19 09:38:00.493057,59.63,P271,Electronics,Cash,Regular,Warehouse B,217,Weekly
+T00862,2023-10-28 07:55:10.493057,164.68,P374,Grocery,Online Payment,New,Warehouse A,212,Weekly
+T00863,2024-02-03 00:49:56.493057,980.42,P373,Clothing,Credit Card,New,Warehouse A,370,Daily
+T00864,2023-10-16 02:17:50.493057,584.65,P272,Grocery,Cash,Regular,Warehouse C,471,Daily
+T00865,2024-06-13 02:58:11.493057,658.72,P545,Furniture,Debit Card,Regular,Warehouse B,241,Monthly
+T00866,2024-06-07 02:48:24.493057,959.18,P945,Electronics,Cash,Loyal,Storefront,367,Weekly
+T00867,2024-08-10 17:21:44.493057,252.04,P971,Electronics,Debit Card,Loyal,Warehouse B,462,Bi-weekly
+T00868,2024-01-23 01:48:14.493057,481.32,P355,Toys,Online Payment,Loyal,Warehouse B,127,Monthly
+T00869,2023-10-12 12:04:49.493057,254.59,P810,Electronics,Online Payment,New,Warehouse B,447,Daily
+T00870,2024-06-20 11:00:00.493057,122.91,P747,Clothing,Online Payment,New,Storefront,498,Weekly
+T00871,2024-03-07 05:39:35.493057,223.4,P188,Electronics,Online Payment,Loyal,Warehouse C,183,Weekly
+T00872,2023-09-09 00:33:09.493057,319.49,P705,Toys,Online Payment,New,Warehouse C,34,Bi-weekly
+T00873,2024-08-14 06:23:50.493057,969.12,P540,Toys,Debit Card,New,Warehouse C,243,Bi-weekly
+T00874,2023-11-25 19:21:11.493057,46.25,P703,Electronics,Credit Card,Regular,Warehouse B,401,Daily
+T00875,2023-09-29 16:44:31.493057,250.56,P996,Electronics,Cash,Regular,Warehouse A,210,Bi-weekly
+T00876,2024-05-26 09:33:43.493057,701.91,P908,Toys,Online Payment,Regular,Warehouse C,385,Daily
+T00877,2024-04-26 22:12:23.493057,56.3,P159,Electronics,Online Payment,Regular,Warehouse C,202,Monthly
+T00878,2023-09-21 10:55:20.493057,38.66,P940,Furniture,Debit Card,Regular,Storefront,151,Daily
+T00879,2024-05-14 19:28:29.493057,812.58,P947,Electronics,Debit Card,New,Storefront,361,Bi-weekly
+T00880,2024-01-22 20:38:04.493057,832.93,P125,Clothing,Credit Card,Regular,Warehouse C,379,Daily
+T00881,2024-03-17 12:11:14.494283,843.14,P829,Electronics,Credit Card,New,Warehouse B,413,Bi-weekly
+T00882,2024-03-26 11:53:28.494283,250.21,P455,Grocery,Credit Card,New,Warehouse B,458,Daily
+T00883,2024-08-02 09:56:42.494283,609.64,P832,Grocery,Online Payment,Loyal,Storefront,442,Monthly
+T00884,2024-07-27 05:25:43.494283,636.13,P943,Toys,Debit Card,Loyal,Warehouse B,414,Weekly
+T00885,2023-12-05 23:09:05.494283,164.01,P114,Clothing,Credit Card,New,Warehouse C,271,Monthly
+T00886,2024-02-19 05:44:44.494283,165.39,P146,Electronics,Online Payment,New,Warehouse A,472,Weekly
+T00887,2024-06-15 18:13:07.494283,613.22,P939,Electronics,Cash,Regular,Warehouse C,403,Daily
+T00888,2023-12-05 19:25:52.494283,320.51,P715,Clothing,Debit Card,Regular,Warehouse B,89,Daily
+T00889,2023-09-29 13:17:26.494283,705.42,P599,Furniture,Debit Card,Loyal,Storefront,3,Weekly
+T00890,2024-05-18 05:51:31.494283,185.96,P935,Electronics,Debit Card,Regular,Warehouse A,414,Weekly
+T00891,2023-12-15 07:43:21.494283,618.85,P801,Clothing,Debit Card,New,Warehouse A,139,Monthly
+T00892,2023-12-09 07:29:06.494283,574.03,P227,Clothing,Cash,New,Storefront,368,Monthly
+T00893,2023-09-05 06:16:10.494283,948.68,P243,Toys,Cash,Regular,Warehouse B,208,Monthly
+T00894,2024-04-04 19:44:02.494283,467.13,P590,Toys,Cash,Loyal,Storefront,268,Bi-weekly
+T00895,2023-12-04 23:37:46.494283,763.19,P134,Furniture,Online Payment,Regular,Storefront,282,Weekly
+T00896,2024-01-18 04:31:28.494283,93.7,P482,Grocery,Online Payment,Regular,Storefront,56,Monthly
+T00897,2024-06-03 13:51:15.494283,759.15,P314,Grocery,Cash,New,Warehouse B,368,Daily
+T00898,2023-09-22 08:47:41.494283,129.8,P524,Furniture,Online Payment,Loyal,Storefront,411,Daily
+T00899,2024-01-03 14:26:46.494283,305.81,P787,Furniture,Cash,Loyal,Warehouse C,44,Monthly
+T00900,2024-05-20 21:25:48.494283,256.1,P338,Clothing,Credit Card,Loyal,Warehouse C,297,Monthly
+T00901,2024-01-24 22:01:07.494283,20.65,P981,Grocery,Credit Card,New,Warehouse B,200,Bi-weekly
+T00902,2023-09-12 17:18:13.494283,157.22,P960,Toys,Debit Card,Loyal,Storefront,121,Monthly
+T00903,2023-10-04 22:26:13.494283,384.72,P249,Grocery,Debit Card,Regular,Warehouse B,93,Weekly
+T00904,2023-09-16 06:08:24.494283,528.6,P834,Electronics,Online Payment,Loyal,Warehouse B,394,Weekly
+T00905,2024-04-02 15:13:23.494283,778.29,P354,Grocery,Cash,Regular,Warehouse C,330,Bi-weekly
+T00906,2024-06-29 12:47:08.494283,966.72,P920,Furniture,Cash,Regular,Storefront,163,Bi-weekly
+T00907,2023-12-09 20:54:39.494283,741.44,P741,Grocery,Credit Card,New,Storefront,241,Bi-weekly
+T00908,2023-12-15 15:31:43.494283,405.1,P154,Toys,Debit Card,Loyal,Warehouse C,62,Daily
+T00909,2023-10-17 07:11:05.494283,210.79,P212,Grocery,Online Payment,Regular,Warehouse A,444,Monthly
+T00910,2023-09-17 22:44:49.494283,595.77,P523,Grocery,Credit Card,Regular,Storefront,194,Daily
+T00911,2024-01-18 19:30:45.494283,313.45,P515,Furniture,Credit Card,New,Warehouse C,194,Daily
+T00912,2024-01-20 20:20:39.494283,701.0,P470,Furniture,Cash,New,Warehouse B,491,Bi-weekly
+T00913,2023-12-31 00:21:02.494283,175.02,P610,Toys,Debit Card,Regular,Warehouse A,108,Weekly
+T00914,2023-12-15 19:16:27.494283,286.97,P158,Electronics,Online Payment,Regular,Warehouse C,97,Bi-weekly
+T00915,2023-12-05 21:30:11.494283,27.57,P826,Furniture,Cash,New,Warehouse C,295,Daily
+T00916,2024-08-12 08:14:52.494283,24.3,P756,Electronics,Cash,Regular,Storefront,358,Monthly
+T00917,2024-04-20 08:11:52.494283,504.03,P990,Electronics,Credit Card,New,Storefront,405,Weekly
+T00918,2024-08-12 03:13:52.494283,899.62,P320,Clothing,Online Payment,New,Warehouse B,158,Bi-weekly
+T00919,2024-01-27 20:58:58.494283,459.16,P844,Grocery,Debit Card,Regular,Warehouse B,378,Monthly
+T00920,2023-10-09 09:40:15.494283,550.4,P513,Grocery,Cash,New,Warehouse C,325,Weekly
+T00921,2024-02-05 20:26:09.494283,615.55,P853,Furniture,Online Payment,New,Warehouse A,232,Monthly
+T00922,2023-12-05 02:41:42.494283,61.57,P619,Electronics,Cash,Regular,Warehouse B,267,Weekly
+T00923,2024-02-28 03:00:24.494283,137.83,P409,Furniture,Credit Card,Loyal,Warehouse A,164,Daily
+T00924,2024-04-03 21:26:13.494283,373.17,P632,Electronics,Debit Card,New,Warehouse C,261,Weekly
+T00925,2023-10-31 05:02:21.494283,316.33,P414,Toys,Credit Card,Loyal,Storefront,22,Daily
+T00926,2024-05-09 08:35:21.494283,380.81,P171,Electronics,Debit Card,New,Warehouse A,321,Bi-weekly
+T00927,2024-02-25 10:52:45.494283,704.99,P448,Furniture,Cash,Loyal,Warehouse A,354,Bi-weekly
+T00928,2024-05-17 05:57:14.494283,317.61,P254,Toys,Online Payment,Regular,Warehouse B,219,Bi-weekly
+T00929,2024-02-27 19:34:56.494283,668.48,P941,Toys,Credit Card,Regular,Storefront,298,Weekly
+T00930,2023-10-11 02:22:52.494283,252.86,P138,Grocery,Cash,Regular,Warehouse A,472,Monthly
+T00931,2023-11-01 14:02:17.494283,91.94,P648,Clothing,Cash,New,Warehouse B,312,Daily
+T00932,2024-05-30 17:14:07.494283,409.93,P380,Toys,Debit Card,Regular,Warehouse B,183,Daily
+T00933,2024-02-09 07:35:38.494283,256.59,P485,Toys,Credit Card,Loyal,Warehouse B,184,Bi-weekly
+T00934,2024-02-28 09:20:06.494283,168.03,P205,Electronics,Credit Card,Loyal,Storefront,134,Daily
+T00935,2024-01-28 04:12:59.494283,315.93,P186,Furniture,Credit Card,New,Warehouse B,303,Bi-weekly
+T00936,2023-11-08 07:25:01.494283,875.66,P938,Toys,Online Payment,Loyal,Warehouse B,153,Bi-weekly
+T00937,2024-04-07 15:32:46.494283,390.2,P807,Toys,Debit Card,New,Warehouse B,45,Monthly
+T00938,2023-11-14 23:32:15.494283,260.38,P552,Electronics,Credit Card,Loyal,Warehouse B,59,Monthly
+T00939,2023-12-07 19:44:04.494283,462.48,P479,Toys,Cash,Regular,Storefront,399,Bi-weekly
+T00940,2024-03-18 09:47:59.494283,695.46,P896,Electronics,Credit Card,Regular,Warehouse A,346,Bi-weekly
+T00941,2024-04-13 03:52:51.494283,362.16,P986,Grocery,Debit Card,Loyal,Storefront,249,Weekly
+T00942,2024-06-20 20:53:38.494283,187.94,P966,Toys,Cash,Regular,Warehouse C,480,Bi-weekly
+T00943,2023-12-26 03:35:58.494283,458.88,P275,Furniture,Online Payment,New,Warehouse B,328,Bi-weekly
+T00944,2024-08-04 11:28:37.494283,885.19,P448,Electronics,Debit Card,Loyal,Warehouse B,433,Bi-weekly
+T00945,2024-05-09 08:27:18.494283,135.24,P468,Toys,Debit Card,New,Storefront,381,Bi-weekly
+T00946,2024-05-21 22:41:44.494283,539.55,P329,Clothing,Credit Card,New,Storefront,66,Monthly
+T00947,2023-08-27 10:00:45.494283,656.91,P630,Electronics,Debit Card,New,Warehouse B,496,Bi-weekly
+T00948,2023-09-23 04:18:53.494283,965.19,P565,Grocery,Debit Card,Loyal,Warehouse C,340,Monthly
+T00949,2024-05-25 11:55:05.494283,204.13,P988,Furniture,Debit Card,Loyal,Warehouse C,240,Daily
+T00950,2024-01-27 10:53:10.494283,168.48,P187,Electronics,Debit Card,Regular,Storefront,106,Monthly
+T00951,2024-05-03 04:31:16.494283,254.24,P383,Clothing,Online Payment,Regular,Warehouse B,366,Daily
+T00952,2024-01-27 05:15:34.494283,366.98,P713,Grocery,Online Payment,New,Warehouse A,369,Weekly
+T00953,2024-08-16 20:07:16.494283,686.32,P249,Grocery,Cash,New,Storefront,120,Daily
+T00954,2024-05-16 04:22:51.494283,550.26,P834,Grocery,Cash,Regular,Storefront,383,Daily
+T00955,2023-12-27 12:29:14.494283,153.4,P364,Toys,Online Payment,Loyal,Warehouse C,368,Monthly
+T00956,2023-10-31 00:17:57.494283,772.95,P317,Electronics,Online Payment,Regular,Warehouse C,269,Bi-weekly
+T00957,2024-01-09 11:36:09.494283,141.85,P334,Clothing,Debit Card,Regular,Warehouse A,446,Daily
+T00958,2024-03-04 09:09:44.494283,762.08,P829,Furniture,Debit Card,Loyal,Warehouse A,295,Bi-weekly
+T00959,2024-06-02 16:05:18.494283,792.2,P563,Grocery,Cash,Regular,Warehouse A,232,Weekly
+T00960,2023-10-13 20:58:14.494283,455.12,P542,Electronics,Credit Card,New,Storefront,389,Weekly
+T00961,2024-02-17 09:51:39.494283,414.62,P587,Toys,Cash,Loyal,Storefront,2,Monthly
+T00962,2024-01-30 04:39:02.494283,424.76,P758,Grocery,Debit Card,Loyal,Storefront,153,Weekly
+T00963,2024-07-03 22:53:10.494283,784.73,P581,Clothing,Credit Card,Regular,Warehouse C,113,Daily
+T00964,2023-09-05 13:53:23.494283,618.81,P380,Grocery,Credit Card,Regular,Warehouse B,213,Daily
+T00965,2024-01-29 21:01:02.494283,699.9,P872,Electronics,Credit Card,New,Warehouse A,431,Weekly
+T00966,2024-03-11 14:14:06.494283,324.62,P633,Grocery,Credit Card,Loyal,Warehouse A,387,Weekly
+T00967,2024-08-11 05:15:20.494283,467.99,P787,Toys,Cash,Regular,Storefront,366,Bi-weekly
+T00968,2024-06-09 06:29:44.494283,555.13,P939,Clothing,Cash,Regular,Storefront,162,Bi-weekly
+T00969,2024-07-27 13:19:54.494283,926.13,P191,Grocery,Online Payment,New,Warehouse C,216,Monthly
+T00970,2024-02-07 22:23:43.494283,692.69,P619,Clothing,Cash,New,Warehouse A,1,Monthly
+T00971,2024-06-15 20:20:36.494283,631.27,P857,Electronics,Online Payment,New,Storefront,250,Weekly
+T00972,2024-08-08 11:15:53.494283,529.06,P385,Electronics,Debit Card,Loyal,Warehouse B,255,Monthly
+T00973,2024-02-16 05:48:24.494283,393.85,P464,Furniture,Debit Card,Loyal,Storefront,465,Monthly
+T00974,2024-06-13 05:20:18.494283,895.6,P383,Clothing,Online Payment,New,Warehouse B,472,Bi-weekly
+T00975,2024-04-10 01:23:22.494283,811.73,P951,Toys,Online Payment,Loyal,Warehouse A,493,Monthly
+T00976,2024-02-05 22:16:10.494283,654.91,P128,Grocery,Debit Card,Loyal,Warehouse B,239,Daily
+T00977,2023-09-17 20:58:11.494283,843.87,P451,Clothing,Debit Card,Regular,Warehouse B,327,Daily
+T00978,2024-04-25 23:49:22.494283,74.4,P421,Furniture,Debit Card,Loyal,Storefront,401,Bi-weekly
+T00979,2024-04-07 03:52:57.494283,780.01,P445,Electronics,Cash,Loyal,Storefront,152,Bi-weekly
+T00980,2023-09-24 07:01:23.494283,167.09,P780,Clothing,Debit Card,Regular,Warehouse A,46,Daily
+T00981,2024-02-16 11:50:34.494283,86.61,P969,Furniture,Online Payment,Regular,Warehouse C,230,Bi-weekly
+T00982,2024-02-01 09:38:27.494283,134.8,P374,Toys,Credit Card,New,Warehouse C,341,Bi-weekly
+T00983,2024-07-21 00:01:16.494283,143.67,P664,Clothing,Online Payment,Loyal,Warehouse A,192,Bi-weekly
+T00984,2024-05-15 16:32:36.494283,118.18,P755,Clothing,Credit Card,New,Warehouse B,288,Bi-weekly
+T00985,2024-03-09 18:17:29.494283,170.89,P685,Electronics,Credit Card,Regular,Warehouse B,165,Weekly
+T00986,2024-03-23 15:25:41.494283,160.5,P895,Electronics,Credit Card,New,Storefront,207,Bi-weekly
+T00987,2023-10-26 15:34:27.494283,241.33,P293,Furniture,Online Payment,New,Storefront,16,Daily
+T00988,2024-04-26 23:05:46.494283,332.06,P622,Electronics,Debit Card,Regular,Storefront,22,Weekly
+T00989,2024-06-05 21:27:41.494283,436.72,P848,Clothing,Debit Card,Loyal,Warehouse A,268,Monthly
+T00990,2023-12-16 06:29:44.494283,911.67,P197,Electronics,Cash,Loyal,Warehouse B,310,Bi-weekly
+T00991,2024-02-08 16:32:29.494283,445.34,P617,Furniture,Debit Card,Regular,Warehouse B,165,Daily
+T00992,2024-03-31 03:04:01.494283,567.59,P140,Clothing,Cash,Regular,Warehouse C,57,Daily
+T00993,2024-03-24 23:27:23.494283,867.84,P966,Toys,Credit Card,Loyal,Warehouse C,191,Daily
+T00994,2023-12-28 13:22:27.494283,63.77,P701,Furniture,Debit Card,Regular,Warehouse B,419,Weekly
+T00995,2024-04-18 05:13:05.494283,372.9,P280,Grocery,Cash,Regular,Storefront,244,Monthly
+T00996,2024-06-29 20:53:38.494283,512.46,P950,Furniture,Credit Card,New,Warehouse A,63,Monthly
+T00997,2024-03-09 12:55:32.494283,603.22,P543,Grocery,Cash,Loyal,Warehouse B,141,Weekly
+T00998,2024-04-03 11:24:59.494283,720.28,P357,Grocery,Credit Card,Regular,Warehouse A,393,Weekly
+T00999,2024-03-08 22:14:12.494283,805.06,P583,Clothing,Debit Card,Loyal,Storefront,153,Weekly
+T01000,2024-05-22 10:57:26.494283,353.26,P556,Electronics,Cash,New,Warehouse C,275,Bi-weekly

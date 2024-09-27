@@ -120,7 +120,7 @@ const ProductAnalysis = () => {
 
   // Function to load sample CSV
   const loadSampleCSV = () => {
-    let csvFilePath = './assests/sales_analysis.csv';
+    let csvFilePath = './assests/product_analysis.csv';
 
     if (csvFilePath) {
       fetch(csvFilePath)
