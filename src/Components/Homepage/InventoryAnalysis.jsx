@@ -303,7 +303,6 @@ const InventoryAnalysis = () => {
 
           {/* Render the CSV table */}
           <div className="scroll">{renderCSVTable(fileData)}</div>
-          {errorMessage && <div className="error-message">{errorMessage}</div>}
 
 
           {/* Display analysis results */}
