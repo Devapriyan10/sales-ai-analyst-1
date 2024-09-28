@@ -4,6 +4,7 @@ import GoogleDrivePicker from '../GoogleDrivePicker';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEdit, faFileAlt, faSave, faTimes } from '@fortawesome/free-solid-svg-icons';
 import Papa from 'papaparse';
+import * as XLSX from 'xlsx';
 import '../home.css'
 import './style/style.css';
 
@@ -15,25 +16,66 @@ const ProductAnalysis = () => {
   const [errorMessage, setErrorMessage] = useState('');
   const [analysisResults, setAnalysisResults] = useState({});
 
+  // Required columns for validation
+  const [columnValidationResult, setColumnValidationResult] = useState(null); // State to store validation result
 
+  // Required columns for validation
+  const requiredColumns = [
+    "Transaction ID", "Date and Time", "Value", "Product Code", "Product Name", 
+    "Product Category", "Product Cost", "Profit", "Payment Method", "Customer Segment"
+  ];
+  
+  // Function to validate columns
+  const validateColumns = (csvHeaders) => {
+    const missingColumns = [];
+    const lowerCasedHeaders = csvHeaders.map(header => header.toLowerCase());
+  
+    requiredColumns.forEach((col) => {
+      if (!lowerCasedHeaders.includes(col.toLowerCase())) {
+        missingColumns.push(col);
+      }
+    });
+  
+    return missingColumns;
+  };
+  
   // File upload handling
   const handleFileUpload = (file) => {
     if (file.type !== 'text/csv') {
       setErrorMessage('Please upload a valid CSV file.');
       return;
     }
-
+  
     setUploadedFile(file);
     setErrorMessage(''); // Clear any previous error messages
-
+  
     const reader = new FileReader();
     reader.onload = (e) => {
       Papa.parse(e.target.result, {
         header: true,
         complete: (result) => {
           const data = result.data;
+          const csvHeaders = result.meta.fields; // Get headers from CSV
+  
+          // Validate columns
+          const missingColumns = validateColumns(csvHeaders);
+  
+          if (missingColumns.length > 0) {
+            setColumnValidationResult({
+              isValid: false,
+              missingColumns: missingColumns
+            });
+            setErrorMessage(`The following columns are missing or incorrect: ${missingColumns.join(", ")}`);
+          } else {
+            setColumnValidationResult({
+              isValid: true,
+              missingColumns: []
+            });
+            setErrorMessage(''); // Clear any error messages
+          }
+  
           setFileData(data);  // Set file data without analysis
-
+  
           // Perform analyses
           performProductAnalysis(data);
           performMissingDataAnalysis(data);
@@ -41,9 +83,17 @@ const ProductAnalysis = () => {
         },
       });
     };
-
+  
     reader.readAsText(file);  // Read the file content
   };
+  
+  
+
+  const processData = (data) => {
+    // Your data processing logic here
+    setFileData(data); // Save processed data
+  };
+
 
   // Product Analysis: Analyze Profit by Product Code and Product Cost Summary
   const performProductAnalysis = (data) => {
@@ -217,6 +267,8 @@ const ProductAnalysis = () => {
         </button>
         <span> Or drag and drop files</span>
       </div>
+
+      {errorMessage && <div className="error-message">{errorMessage}</div>}
   
       {/* Add Google Drive Browse Button */}
       <div className="picker-btn">
@@ -257,8 +309,20 @@ const ProductAnalysis = () => {
           </div>
   
           <div className="scroll">{renderCSVTable(fileData)}</div>
+          {/* {errorMessage && <div className="error-message">{errorMessage}</div>} */}
         </div>
       )}
+
+<div>
+    {columnValidationResult && (
+      columnValidationResult.isValid ? (
+        <p style={{ color: 'green' }}>CSV columns match the required format.</p>
+      ) : (
+        <p style={{ color: 'red' }}>
+        </p>
+      )
+    )}
+  </div>
   
       {/* Display Product Analysis Results */}
       {analysisResults.productProfit && (
@@ -356,4 +420,4 @@ const ProductAnalysis = () => {
   
 };
 
-export default ProductAnalysis;
+export default ProductAnalysis; 

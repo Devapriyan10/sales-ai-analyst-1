@@ -97,14 +97,6 @@ const handleFileUpload = (file) => {
     }
   };
 
-  // // Process the data
-  // const processData = (data) => {
-  //   const cleanedData = cleanData(data);
-  //   analyzeInventory(cleanedData);
-  //   analyzeMissingData(cleanedData);
-  //   analyzeDuplicateData(cleanedData);
-  //   setFileData(cleanedData); // Save cleaned data for display
-  // };
 
   // Data cleaning and transformation
   const cleanData = (data) => {
@@ -253,6 +245,9 @@ const handleFileUpload = (file) => {
         </button>
         <span> Or drag and drop files</span>
       </div>
+
+      {/* Display the error message */}
+     {errorMessage && <div className="error-message">{errorMessage}</div>}
 
       {/* Add Google Drive Browse Button */}
       <div className="picker-btn">
