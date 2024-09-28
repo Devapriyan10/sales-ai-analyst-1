@@ -16,67 +16,69 @@ const InventoryAnalysis = () => {
   const [errorMessage, setErrorMessage] = useState('');
   const [analysisResults, setAnalysisResults] = useState({});
 
-  const requiredColumns = ['Transaction ID', 'Date and Time', 'Value', 'Product Code','Product Category', 'Restock Frequency', 'Stock Level','Storage Location','Payment Method','Customer Segment']; // Define required columns
+  const requiredColumns = ['Transaction ID', 'Date and Time', 'Value', 'Product Code', 'Product Category', 'Restock Frequency', 'Stock Level', 'Storage Location', 'Payment Method', 'Customer Segment']; // Define required columns
 
-// Column validation function
-const validateColumns = (headers) => {
-  const missingColumns = requiredColumns.filter(col => !headers.includes(col));
-  if (missingColumns.length > 0) {
-    setErrorMessage(`Missing required columns: ${missingColumns.join(', ')}`);
-    return false;
-  }
-  return true;
-};
+  // Column validation function
+  const validateColumns = (headers) => {
+    const lowerCasedHeaders = headers.map(header => header.toLowerCase());
+    const lowerCasedRequiredColumns = requiredColumns.map(col => col.toLowerCase());
+    const missingColumns = requiredColumns.filter(col => !lowerCasedHeaders.includes(col.toLowerCase()));
+    if (missingColumns.length > 0) {
+      setErrorMessage(`Missing required columns: ${missingColumns.join(', ')}`);
+      return false;
+    }
+    return true;
+  };
 
-// Process the data
-const processData = (data) => {
-  const headers = Object.keys(data[0]); // Get column headers from the first row
-  if (!validateColumns(headers)) return; // Check for missing columns
+  // Process the data
+  const processData = (data) => {
+    const headers = Object.keys(data[0]); // Get column headers from the first row
+    if (!validateColumns(headers)) return; // Check for missing columns
 
-  const cleanedData = cleanData(data);
-  analyzeInventory(cleanedData);
-  analyzeMissingData(cleanedData);
-  analyzeDuplicateData(cleanedData);
-  setFileData(cleanedData); // Save cleaned data for display
-};
+    const cleanedData = cleanData(data);
+    analyzeInventory(cleanedData);
+    analyzeMissingData(cleanedData);
+    analyzeDuplicateData(cleanedData);
+    setFileData(cleanedData); // Save cleaned data for display
+  };
 
   // Handling file uploads and validation
-const handleFileUpload = (file) => {
-  if (file.type !== 'text/csv' && !file.name.endsWith('.xlsx')) {
-    setErrorMessage('Please upload a valid CSV or Excel file.');
-    return;
-  }
+  const handleFileUpload = (file) => {
+    if (file.type !== 'text/csv' && !file.name.endsWith('.xlsx')) {
+      setErrorMessage('Please upload a valid CSV or Excel file.');
+      return;
+    }
 
-  setUploadedFile(file);
-  setErrorMessage(''); // Clear any previous error messages
-  const reader = new FileReader();
+    setUploadedFile(file);
+    setErrorMessage(''); // Clear any previous error messages
+    const reader = new FileReader();
 
-  if (file.name.endsWith('.csv')) {
-    reader.onload = (e) => {
-      Papa.parse(e.target.result, {
-        header: true,
-        complete: (result) => {
-          const data = result.data;
-          processData(data);
-        },
-      });
-    };
-    reader.readAsText(file); // Read CSV content
-  } else if (file.name.endsWith('.xlsx')) {
-    reader.onload = (event) => {
-      const binaryStr = event.target.result;
-      const workbook = XLSX.read(binaryStr, { type: 'binary' });
-      const sheetName = workbook.SheetNames[0];
-      const sheet = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName], { header: 1 });
+    if (file.name.endsWith('.csv')) {
+      reader.onload = (e) => {
+        Papa.parse(e.target.result, {
+          header: true,
+          complete: (result) => {
+            const data = result.data;
+            processData(data);
+          },
+        });
+      };
+      reader.readAsText(file); // Read CSV content
+    } else if (file.name.endsWith('.xlsx')) {
+      reader.onload = (event) => {
+        const binaryStr = event.target.result;
+        const workbook = XLSX.read(binaryStr, { type: 'binary' });
+        const sheetName = workbook.SheetNames[0];
+        const sheet = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName], { header: 1 });
 
-      const headers = sheet[0]; // Assuming first row is headers in Excel
-      if (!validateColumns(headers)) return; // Check for missing columns
+        const headers = sheet[0]; // Assuming first row is headers in Excel
+        if (!validateColumns(headers)) return; // Check for missing columns
 
-      processData(sheet);
-    };
-    reader.readAsBinaryString(file); // Read Excel content
-  }
-};
+        processData(sheet);
+      };
+      reader.readAsBinaryString(file); // Read Excel content
+    }
+  };
 
   // Function to load sample CSV
   const loadSampleCSV = () => {
@@ -247,7 +249,7 @@ const handleFileUpload = (file) => {
       </div>
 
       {/* Display the error message */}
-     {errorMessage && <div className="error-message">{errorMessage}</div>}
+      {errorMessage && <div className="error-message">{errorMessage}</div>}
 
       {/* Add Google Drive Browse Button */}
       <div className="picker-btn">
@@ -256,7 +258,7 @@ const handleFileUpload = (file) => {
 
       {/* Button to load and display a sample CSV */}
       <button className="sample-csv-btn" onClick={loadSampleCSV}>
-             <FontAwesomeIcon icon={faFileAlt} /> View Sample CSV
+        <FontAwesomeIcon icon={faFileAlt} /> View Sample CSV
       </button>
 
       {/* Display sample CSV if loaded */}
@@ -329,7 +331,7 @@ const handleFileUpload = (file) => {
                   <pre>{JSON.stringify(analysisResults.missingValues, null, 2)}</pre>
                 </div>
               )}
-              
+
             </div>
           )}
         </div>
@@ -340,4 +342,4 @@ const handleFileUpload = (file) => {
 
 export default InventoryAnalysis;
 
-             
+

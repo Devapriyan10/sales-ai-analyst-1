@@ -16,77 +16,77 @@ const CategoricalAnalysis = () => {
   const [errorMessage, setErrorMessage] = useState('');
   const [columnValidationResult, setColumnValidationResult] = useState(null); // State to store validation result
 
-// Required columns for Categorical Analysis
-const requiredColumns = [
-  "Transaction ID", 
-  "Date and Time", 
-  "Value", 
-  "Product Code",
-  "Product Category", 
-  "Payment Method", 
-  "Customer Segment"
-];
+  // Required columns for Categorical Analysis
+  const requiredColumns = [
+    "Transaction ID",
+    "Date and Time",
+    "Value",
+    "Product Code",
+    "Product Category",
+    "Payment Method",
+    "Customer Segment"
+  ];
 
-// Function to validate columns
-const validateColumns = (csvHeaders) => {
-  const missingColumns = [];
-  const lowerCasedHeaders = csvHeaders.map(header => header.toLowerCase());
+  // Function to validate columns
+  const validateColumns = (csvHeaders) => {
+    const missingColumns = [];
+    const lowerCasedHeaders = csvHeaders.map(header => header.toLowerCase());
 
-  requiredColumns.forEach((col) => {
-    if (!lowerCasedHeaders.includes(col.toLowerCase())) {
-      missingColumns.push(col);
-    }
-  });
-
-  return missingColumns;
-};
-
-// Handling file uploads and validation
-const handleFileUpload = (file) => {
-  if (file.type !== 'text/csv') {
-    setErrorMessage('Please upload a valid CSV file.');
-    return;
-  }
-
-  setUploadedFile(file);
-  setErrorMessage(''); // Clear any previous error messages
-  const reader = new FileReader();
-
-  reader.onload = (e) => {
-    Papa.parse(e.target.result, {
-      header: true,
-      complete: (result) => {
-        const data = result.data;
-        const csvHeaders = result.meta.fields; // Get headers from CSV
-
-        // Validate columns
-        const missingColumns = validateColumns(csvHeaders);
-
-        if (missingColumns.length > 0) {
-          setColumnValidationResult({
-            isValid: false,
-            missingColumns: missingColumns
-          });
-          setErrorMessage(`The following columns are missing or incorrect: ${missingColumns.join(", ")}`);
-        } else {
-          setColumnValidationResult({
-            isValid: true,
-            missingColumns: []
-          });
-          setErrorMessage(''); // Clear any error messages
-
-          // Set file data and perform analyses
-          setFileData(data);
-          performCategoricalAnalysis(data);
-          performMissingDataAnalysis(data);
-          performDuplicateDataAnalysis(data);
-        }
-      },
+    requiredColumns.forEach((col) => {
+      if (!lowerCasedHeaders.includes(col.toLowerCase())) {
+        missingColumns.push(col);
+      }
     });
+
+    return missingColumns;
   };
 
-  reader.readAsText(file);  // Read the file content
-};
+  // Handling file uploads and validation
+  const handleFileUpload = (file) => {
+    if (file.type !== 'text/csv') {
+      setErrorMessage('Please upload a valid CSV file.');
+      return;
+    }
+
+    setUploadedFile(file);
+    setErrorMessage(''); // Clear any previous error messages
+    const reader = new FileReader();
+
+    reader.onload = (e) => {
+      Papa.parse(e.target.result, {
+        header: true,
+        complete: (result) => {
+          const data = result.data;
+          const csvHeaders = result.meta.fields; // Get headers from CSV
+
+          // Validate columns
+          const missingColumns = validateColumns(csvHeaders);
+
+          if (missingColumns.length > 0) {
+            setColumnValidationResult({
+              isValid: false,
+              missingColumns: missingColumns
+            });
+            setErrorMessage(`The following columns are missing or incorrect: ${missingColumns.join(", ")}`);
+          } else {
+            setColumnValidationResult({
+              isValid: true,
+              missingColumns: []
+            });
+            setErrorMessage(''); // Clear any error messages
+
+            // Set file data and perform analyses
+            setFileData(data);
+            performCategoricalAnalysis(data);
+            performMissingDataAnalysis(data);
+            performDuplicateDataAnalysis(data);
+          }
+        },
+      });
+    };
+
+    reader.readAsText(file);  // Read the file content
+  };
 
   // Perform Categorical Analysis: Sales by Product Category, Payment Method, Customer Segment
   const performCategoricalAnalysis = (data) => {
@@ -310,18 +310,18 @@ const handleFileUpload = (file) => {
         </div>
       )}
 
-<div>
-    {columnValidationResult && (
-      columnValidationResult.isValid ? (
-        <p style={{ color: 'green' }}>CSV columns match the required format for Categorical Analysis.</p>
-      ) : (
-        <p style={{ color: 'red' }}>
-        </p>
-      )
-    )}
-        
-    {/* Display CSV Data or other components */}
-  </div>
+      <div>
+        {columnValidationResult && (
+          columnValidationResult.isValid ? (
+            <p style={{ color: 'green' }}>CSV columns match the required format for Categorical Analysis.</p>
+          ) : (
+            <p style={{ color: 'red' }}>
+            </p>
+          )
+        )}
+
+        {/* Display CSV Data or other components */}
+      </div>
 
       {/* Categorical Analysis Results */}
       {analysisResults.categorySummary && (

@@ -21,34 +21,34 @@ const ProductAnalysis = () => {
 
   // Required columns for validation
   const requiredColumns = [
-    "Transaction ID", "Date and Time", "Value", "Product Code", "Product Name", 
+    "Transaction ID", "Date and Time", "Value", "Product Code", "Product Name",
     "Product Category", "Product Cost", "Profit", "Payment Method", "Customer Segment"
   ];
-  
+
   // Function to validate columns
   const validateColumns = (csvHeaders) => {
     const missingColumns = [];
     const lowerCasedHeaders = csvHeaders.map(header => header.toLowerCase());
-  
+
     requiredColumns.forEach((col) => {
       if (!lowerCasedHeaders.includes(col.toLowerCase())) {
         missingColumns.push(col);
       }
     });
-  
+
     return missingColumns;
   };
-  
+
   // File upload handling
   const handleFileUpload = (file) => {
     if (file.type !== 'text/csv') {
       setErrorMessage('Please upload a valid CSV file.');
       return;
     }
-  
+
     setUploadedFile(file);
     setErrorMessage(''); // Clear any previous error messages
-  
+
     const reader = new FileReader();
     reader.onload = (e) => {
       Papa.parse(e.target.result, {
@@ -56,10 +56,10 @@ const ProductAnalysis = () => {
         complete: (result) => {
           const data = result.data;
           const csvHeaders = result.meta.fields; // Get headers from CSV
-  
+
           // Validate columns
           const missingColumns = validateColumns(csvHeaders);
-  
+
           if (missingColumns.length > 0) {
             setColumnValidationResult({
               isValid: false,
@@ -73,9 +73,9 @@ const ProductAnalysis = () => {
             });
             setErrorMessage(''); // Clear any error messages
           }
-  
+
           setFileData(data);  // Set file data without analysis
-  
+
           // Perform analyses
           performProductAnalysis(data);
           performMissingDataAnalysis(data);
@@ -83,11 +83,11 @@ const ProductAnalysis = () => {
         },
       });
     };
-  
+
     reader.readAsText(file);  // Read the file content
   };
-  
-  
+
+
 
   const processData = (data) => {
     // Your data processing logic here
@@ -269,12 +269,12 @@ const ProductAnalysis = () => {
       </div>
 
       {errorMessage && <div className="error-message">{errorMessage}</div>}
-  
+
       {/* Add Google Drive Browse Button */}
       <div className="picker-btn">
         <GoogleDrivePicker />
       </div>
-  
+
       {/* Display uploaded file and trigger analysis */}
       {uploadedFile && (
         <div>
@@ -282,7 +282,7 @@ const ProductAnalysis = () => {
           <button onClick={triggerAnalysis} className="analyze-btn">Analyze File</button>
         </div>
       )}
-  
+
       {/* Render editable CSV table */}
       {uploadedFile && (
         <div className="uploaded-file-container">
@@ -307,25 +307,25 @@ const ProductAnalysis = () => {
               />
             </div>
           </div>
-  
+
           <div className="scroll">{renderCSVTable(fileData)}</div>
           {/* {errorMessage && <div className="error-message">{errorMessage}</div>} */}
         </div>
       )}
 
-<div>
-    {columnValidationResult && (
-      columnValidationResult.isValid ? (
-        <p style={{ color: 'green' }}>CSV columns match the required format.</p>
-      ) : (
-        <p style={{ color: 'red' }}>
-        </p>
-      )
-    )}
-  </div>
-  
+      <div>
+        {columnValidationResult && (
+          columnValidationResult.isValid ? (
+            <p style={{ color: 'green' }}>CSV columns match the required format.</p>
+          ) : (
+            <p style={{ color: 'red' }}>
+            </p>
+          )
+        )}
+      </div>
+
       {/* Display Product Analysis Results */}
-      {analysisResults.productProfit && (
+      {columnValidationResult && columnValidationResult.isValid && analysisResults.productProfit && (
         <div>
           <h4>Product Profit Summary</h4>
           <table>
@@ -344,7 +344,7 @@ const ProductAnalysis = () => {
               ))}
             </tbody>
           </table>
-  
+
           <h4>Average Product Cost Summary</h4>
           <table>
             <thead>
@@ -364,9 +364,9 @@ const ProductAnalysis = () => {
           </table>
         </div>
       )}
-  
+
       {/* Display Missing Data Analysis */}
-      {analysisResults.missingValues && (
+      {columnValidationResult && columnValidationResult.isValid && analysisResults.missingValues && (
         <div>
           <h4>Missing Data Analysis</h4>
           <p>Total Missing Data Percentage: {analysisResults.missingPercentage}%</p>
@@ -388,16 +388,16 @@ const ProductAnalysis = () => {
           </table>
         </div>
       )}
-  
+
       {/* Display Duplicate Data Analysis */}
-      {analysisResults.duplicateCount !== undefined && (
+      {columnValidationResult && columnValidationResult.isValid && analysisResults.duplicateCount !== undefined && (
         <div>
           <h4>Duplicate Data Analysis</h4>
           <p>Total Duplicate Rows: {analysisResults.duplicateCount}</p>
           <p>Duplicate Data Percentage: {analysisResults.duplicatePercentage}%</p>
         </div>
       )}
-  
+
       {/* Display sample CSV file */}
       <button className="sample-csv-btn" onClick={loadSampleCSV}>
         <FontAwesomeIcon icon={faFileAlt} /> View Sample CSV
@@ -406,10 +406,10 @@ const ProductAnalysis = () => {
         <div className="sample-csv-container">
           <h4>Sample CSV File</h4>
           <FontAwesomeIcon
-              icon={faTimes}
-              className="remove-sample-file-icon"
-              onClick={() => setSampleFileData([])}
-            />
+            icon={faTimes}
+            className="remove-sample-file-icon"
+            onClick={() => setSampleFileData([])}
+          />
           <div className="scroll">
             {renderCSVTable(sampleFileData)}
           </div>
@@ -417,7 +417,7 @@ const ProductAnalysis = () => {
       )}
     </div>
   );
-  
+
 };
 
 export default ProductAnalysis; 

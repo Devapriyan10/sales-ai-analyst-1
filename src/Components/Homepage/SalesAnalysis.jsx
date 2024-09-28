@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEdit, faFileAlt, faSave, faTimes } from '@fortawesome/free-solid-svg-icons';
 import Papa from 'papaparse';
 import * as XLSX from 'xlsx';
-import '../home.css';
+import './style/home.css';
 import './style/style.css';
 
 const SalesAnalysis = () => {
@@ -67,8 +67,11 @@ const SalesAnalysis = () => {
 
     let requiredColumns = salesAnalysisColumns; // You can update this based on other analysis options
 
+    const lowerCasedHeaders = headerRow.map(col => col.toLowerCase());
+    const lowerCasedRequiredColumns = requiredColumns.map(col => col.toLowerCase());
+
     // Check for missing columns
-    const missingColumns = requiredColumns.filter(col => !headerRow.includes(col));
+    const missingColumns = requiredColumns.filter(col => !lowerCasedHeaders.includes(col.toLowerCase()));
 
     if (missingColumns.length > 0) {
       setIsEditing(true);  // Enable edit mode to allow user to modify the CSV
@@ -249,6 +252,7 @@ const SalesAnalysis = () => {
 
   const displayResults = () => {
     const { missingValues, missingPercentage, averageMissingPercentage, missingScore, duplicatePercentage, duplicateScore } = analysisResults;
+
 
     return (
       <div>
