@@ -15,7 +15,7 @@ const SalesAnalysis = () => {
   const [isEditing, setIsEditing] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [analysisResults, setAnalysisResults] = useState({});
-
+  const [csvData, setCsvData] = useState(null);
   // Handling file uploads and validation (CSV or Excel)
   const handleFileUpload = (file) => {
     if (file.type !== 'text/csv' && !file.name.endsWith('.xlsx')) {
@@ -164,21 +164,27 @@ const SalesAnalysis = () => {
 
   // Function to load sample CSV
   const loadSampleCSV = () => {
-    let csvFilePath = './assests/product_analysis.csv';
-
-    if (csvFilePath) {
-      fetch(csvFilePath)
-        .then((response) => response.text())
-        .then((csvText) => {
-          Papa.parse(csvText, {
-            header: false,
-            complete: (result) => {
-              setSampleFileData(result.data);
-            },
-          });
-        })
-        .catch((error) => console.error('Error loading sample CSV:', error));
-    }
+    fetch('/assets/sales_analysis.csv')
+      // Update this path if necessary
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.text(); // Return the raw CSV data as text
+      })
+      .then(data => {
+        // Use PapaParse to parse the CSV data
+        Papa.parse(data, {
+          header: true, // Treat the first row as header
+          complete: (result) => {
+            setCsvData(result.data); // Set the parsed CSV data to state
+            console.log('Updated CSV Data State:', result.data); // Log parsed data for debugging
+          }
+        });
+      })
+      .catch(error => {
+        console.error('Error fetching the CSV file:', error); // Handle any errors
+      });
   };
 
   // useDropzone hook to handle drag-and-drop functionality
@@ -231,17 +237,7 @@ const SalesAnalysis = () => {
           {data.map((row, rowIndex) => (
             <tr key={rowIndex}>
               {headers.map((header, cellIndex) => (
-                <td key={cellIndex}>
-                  {isEditing ? (
-                    <input
-                      type="text"
-                      value={row[header]}
-                      onChange={(e) => handleCellChange(rowIndex, header, e.target.value)}
-                    />
-                  ) : (
-                    row[header]
-                  )}
-                </td>
+                <td key={cellIndex}>{row[header]}</td>
               ))}
             </tr>
           ))}
@@ -313,18 +309,40 @@ const SalesAnalysis = () => {
         </div>
       )}
 
-      {/* Sample CSV loading */}
-      <button className="sample-csv-btn" onClick={loadSampleCSV}>
+<button className="sample-csv-btn" onClick={loadSampleCSV}>
         <FontAwesomeIcon icon={faFileAlt} /> View Sample CSV
       </button>
 
-      {sampleFileData.length > 0 && (
+      {csvData && csvData.length > 0 && (
         <div className="sample-csv-container">
           <div className="sample-file-header">
             <h3>Sample CSV File</h3>
-            <FontAwesomeIcon icon={faTimes} className="remove-sample-file-icon" onClick={() => setSampleFileData([])} />
+            <FontAwesomeIcon
+              icon={faTimes}
+              className="remove-sample-file-icon"
+              onClick={() => setCsvData(null)}
+            />
           </div>
-          <div className="scroll">{renderCSVTable(sampleFileData)}</div>
+          <div className="scroll">
+            <table border="1">
+              <thead>
+                <tr>
+                  {Object.keys(csvData[0]).map((key) => (
+                    <th key={key}>{key}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {csvData.map((row, index) => (
+                  <tr key={index}>
+                    {Object.values(row).map((value, i) => (
+                      <td key={i}>{value}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       )}
     </div>

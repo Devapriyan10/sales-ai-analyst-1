@@ -15,7 +15,7 @@ const ProductAnalysis = () => {
   const [isEditing, setIsEditing] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [analysisResults, setAnalysisResults] = useState({});
-
+  const [csvData, setCsvData] = useState(null);
   // Required columns for validation
   const [columnValidationResult, setColumnValidationResult] = useState(null); // State to store validation result
 
@@ -170,21 +170,27 @@ const ProductAnalysis = () => {
 
   // Function to load sample CSV
   const loadSampleCSV = () => {
-    let csvFilePath = './assests/product_analysis.csv';
-
-    if (csvFilePath) {
-      fetch(csvFilePath)
-        .then((response) => response.text())
-        .then((csvText) => {
-          Papa.parse(csvText, {
-            header: false,
-            complete: (result) => {
-              setSampleFileData(result.data);
-            },
-          });
-        })
-        .catch((error) => console.error('Error loading sample CSV:', error));
-    }
+    fetch('/assets/product_analysis.csv')
+      // Update this path if necessary
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.text(); // Return the raw CSV data as text
+      })
+      .then(data => {
+        // Use PapaParse to parse the CSV data
+        Papa.parse(data, {
+          header: true, // Treat the first row as header
+          complete: (result) => {
+            setCsvData(result.data); // Set the parsed CSV data to state
+            console.log('Updated CSV Data State:', result.data); // Log parsed data for debugging
+          }
+        });
+      })
+      .catch(error => {
+        console.error('Error fetching the CSV file:', error); // Handle any errors
+      });
   };
 
   // Dropzone for file uploading
@@ -221,7 +227,7 @@ const ProductAnalysis = () => {
   const renderCSVTable = (data) => {
     if (!data.length) return null;
 
-    const headers = Object.keys(data[0]); // Assuming first row has headers
+    const headers = Object.keys(data[0]);
 
     return (
       <table className="csv-table">
@@ -236,19 +242,7 @@ const ProductAnalysis = () => {
           {data.map((row, rowIndex) => (
             <tr key={rowIndex}>
               {headers.map((header, cellIndex) => (
-                <td key={cellIndex}>
-                  {isEditing ? (
-                    <input
-                      type="text"
-                      value={row[header]} // Access cell by header name
-                      onChange={(e) =>
-                        handleCellChange(rowIndex, header, e.target.value)
-                      }
-                    />
-                  ) : (
-                    row[header]
-                  )}
-                </td>
+                <td key={cellIndex}>{row[header]}</td>
               ))}
             </tr>
           ))}
@@ -402,16 +396,36 @@ const ProductAnalysis = () => {
       <button className="sample-csv-btn" onClick={loadSampleCSV}>
         <FontAwesomeIcon icon={faFileAlt} /> View Sample CSV
       </button>
-      {sampleFileData.length > 0 && (
+
+      {csvData && csvData.length > 0 && (
         <div className="sample-csv-container">
-          <h4>Sample CSV File</h4>
-          <FontAwesomeIcon
-            icon={faTimes}
-            className="remove-sample-file-icon"
-            onClick={() => setSampleFileData([])}
-          />
+          <div className="sample-file-header">
+            <h3>Sample CSV File</h3>
+            <FontAwesomeIcon
+              icon={faTimes}
+              className="remove-sample-file-icon"
+              onClick={() => setCsvData(null)}
+            />
+          </div>
           <div className="scroll">
-            {renderCSVTable(sampleFileData)}
+            <table border="1">
+              <thead>
+                <tr>
+                  {Object.keys(csvData[0]).map((key) => (
+                    <th key={key}>{key}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {csvData.map((row, index) => (
+                  <tr key={index}>
+                    {Object.values(row).map((value, i) => (
+                      <td key={i}>{value}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       )}
