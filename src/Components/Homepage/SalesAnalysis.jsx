@@ -208,22 +208,26 @@ const SalesAnalysis = () => {
   };
 
   const handleSaveChanges = () => {
-    setIsEditing(false);
-    console.log('Updated CSV Data:', fileData); // Handle saving or further processing
+    setIsEditing(false); // Exit editing mode
+    setErrorMessage(''); // Clear any existing error message
+    console.log('Updated CSV Data:', fileData); // Log the updated data for further processing
+    // You can also handle saving the data to a server here if needed
   };
+  
 
-  const handleCellChange = (rowIndex, cellIndex, value) => {
+  const handleCellChange = (rowIndex, header, value) => {
     const updatedData = [...fileData];
-    updatedData[rowIndex][cellIndex] = value;
-    setFileData(updatedData);
+    updatedData[rowIndex][header] = value; // Update the specific cell value
+    setFileData(updatedData); // Set the updated data
   };
+  
 
   // Render CSV table
   const renderCSVTable = (data) => {
     if (!data.length) return null;
-
+  
     const headers = Object.keys(data[0]);
-
+  
     return (
       <table className="csv-table">
         <thead>
@@ -237,7 +241,19 @@ const SalesAnalysis = () => {
           {data.map((row, rowIndex) => (
             <tr key={rowIndex}>
               {headers.map((header, cellIndex) => (
-                <td key={cellIndex}>{row[header]}</td>
+                <td key={cellIndex}>
+                  {isEditing ? (
+                    <input
+                      type="text"
+                      value={row[header]}
+                      onChange={(e) =>
+                        handleCellChange(rowIndex, header, e.target.value)
+                      }
+                    />
+                  ) : (
+                    row[header]
+                  )}
+                </td>
               ))}
             </tr>
           ))}
@@ -245,6 +261,7 @@ const SalesAnalysis = () => {
       </table>
     );
   };
+  
 
   const displayResults = () => {
     const { missingValues, missingPercentage, averageMissingPercentage, missingScore, duplicatePercentage, duplicateScore } = analysisResults;

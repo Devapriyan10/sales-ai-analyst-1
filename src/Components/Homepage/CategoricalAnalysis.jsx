@@ -192,22 +192,25 @@ const CategoricalAnalysis = () => {
   };
 
   const handleSaveChanges = () => {
-    setIsEditing(false);
+    setIsEditing(false); // Exit editing mode
     setErrorMessage(''); // Clear any existing error message
-    console.log('Updated CSV Data:', fileData); // Handle saving or further processing
+    console.log('Updated CSV Data:', fileData); // Log the updated data for further processing
+    // You can also handle saving the data to a server here if needed
   };
+  
 
   const handleCellChange = (rowIndex, header, value) => {
     const updatedData = [...fileData];
-    updatedData[rowIndex][header] = value;
-    setFileData(updatedData);
+    updatedData[rowIndex][header] = value; // Update the specific cell value
+    setFileData(updatedData); // Set the updated data
   };
+  
 
   const renderCSVTable = (data) => {
     if (!data.length) return null;
-
+  
     const headers = Object.keys(data[0]);
-
+  
     return (
       <table className="csv-table">
         <thead>
@@ -221,7 +224,19 @@ const CategoricalAnalysis = () => {
           {data.map((row, rowIndex) => (
             <tr key={rowIndex}>
               {headers.map((header, cellIndex) => (
-                <td key={cellIndex}>{row[header]}</td>
+                <td key={cellIndex}>
+                  {isEditing ? (
+                    <input
+                      type="text"
+                      value={row[header]}
+                      onChange={(e) =>
+                        handleCellChange(rowIndex, header, e.target.value)
+                      }
+                    />
+                  ) : (
+                    row[header]
+                  )}
+                </td>
               ))}
             </tr>
           ))}
@@ -229,6 +244,7 @@ const CategoricalAnalysis = () => {
       </table>
     );
   };
+  
 
   const { getRootProps, getInputProps } = useDropzone({
     accept: '.csv',
@@ -284,44 +300,6 @@ const CategoricalAnalysis = () => {
 
           {/* Render the CSV table */}
           <div className="scroll">{renderCSVTable(fileData)}</div>
-        </div>
-      )}
-
-      {/* Button to load and display a sample CSV */}
-      <button className="sample-csv-btn" onClick={loadSampleCSV}>
-        <FontAwesomeIcon icon={faFileAlt} /> View Sample CSV
-      </button>
-
-      {csvData && csvData.length > 0 && (
-        <div className="sample-csv-container">
-          <div className="sample-file-header">
-            <h3>Sample CSV File</h3>
-            <FontAwesomeIcon
-              icon={faTimes}
-              className="remove-sample-file-icon"
-              onClick={() => setCsvData(null)}
-            />
-          </div>
-          <div className="scroll">
-            <table border="1">
-              <thead>
-                <tr>
-                  {Object.keys(csvData[0]).map((key) => (
-                    <th key={key}>{key}</th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {csvData.map((row, index) => (
-                  <tr key={index}>
-                    {Object.values(row).map((value, i) => (
-                      <td key={i}>{value}</td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
         </div>
       )}
 
@@ -427,6 +405,45 @@ const CategoricalAnalysis = () => {
           <p>Duplicate Percentage: {analysisResults.duplicatePercentage}%</p>
         </div>
       )}
+
+      {/* Button to load and display a sample CSV */}
+      <button className="sample-csv-btn" onClick={loadSampleCSV}>
+        <FontAwesomeIcon icon={faFileAlt} /> View Sample CSV
+      </button>
+
+      {csvData && csvData.length > 0 && (
+        <div className="sample-csv-container">
+          <div className="sample-file-header">
+            <h3>Sample CSV File</h3>
+            <FontAwesomeIcon
+              icon={faTimes}
+              className="remove-sample-file-icon"
+              onClick={() => setCsvData(null)}
+            />
+          </div>
+          <div className="scroll">
+            <table border="1">
+              <thead>
+                <tr>
+                  {Object.keys(csvData[0]).map((key) => (
+                    <th key={key}>{key}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {csvData.map((row, index) => (
+                  <tr key={index}>
+                    {Object.values(row).map((value, i) => (
+                      <td key={i}>{value}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
 
     </div>
   );
