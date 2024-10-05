@@ -8,6 +8,9 @@ const nodemailer = require('nodemailer');
 const portfinder = require('portfinder');
 const crypto = require('crypto'); // For generating OTP
 const User = require('./models/User'); // Adjust path as needed
+const multer = require('multer');
+const path = require('path');
+
 
 const app = express();
 
@@ -219,6 +222,23 @@ app.put('/api/users/:email', async (req, res) => {
     console.error('Error updating user details:', error);
     res.status(500).json({ success: false, message: 'Server error', error });
   }
+});
+
+// Set up Multer storage for incoming files
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, path.join(__dirname, 'data')); // Save to 'data' folder
+  },
+  filename: function (req, file, cb) {
+    cb(null, file.originalname); // Save the file with its original name
+  },
+});
+
+const upload = multer({ storage: storage });
+
+// Create an API endpoint to handle file uploads
+app.post('/api/upload', upload.single('file'), (req, res) => {
+  res.json({ message: 'File saved successfully!', fileName: req.file.originalname });
 });
 
 // Start the server on an available port
